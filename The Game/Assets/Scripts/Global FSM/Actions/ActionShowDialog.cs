@@ -7,6 +7,7 @@ namespace FSM.Actions
     public class ActionShowDialog : FSMAction
     {
         [TextArea] public string[] lines;
+        
         private int index = -1;
         public static bool DialogFinished = false;
 
