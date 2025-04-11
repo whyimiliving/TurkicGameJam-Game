@@ -4,7 +4,7 @@ using UnityEngine.AI;
 public class FollowWNavmesh2D : MonoBehaviour
 {
     [SerializeField] Transform target;
-
+    [SerializeField] float distance;
     NavMeshAgent agent;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -13,7 +13,7 @@ public class FollowWNavmesh2D : MonoBehaviour
         agent = GetComponent<NavMeshAgent>();
         agent.updateRotation = false;
         agent.updateUpAxis = false;
-        agent.stoppingDistance = 2;
+        agent.stoppingDistance = distance;
     }
 
     // Update is called once per frame
