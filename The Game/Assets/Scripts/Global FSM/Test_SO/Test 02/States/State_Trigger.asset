@@ -12,6 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4084b2ee83b7d9544b91c9e70d54c4ad, type: 3}
   m_Name: State_Trigger
   m_EditorClassIdentifier: 
-  ID: 
+  ID: State_Trigger
   actions: []
-  transitions: []
+  transitions:
+  - decision: {fileID: 11400000, guid: 4bc13c60c44e66347954a30974826f88, type: 2}
+    targetState: State_Dialog
+    requiredResult: 1

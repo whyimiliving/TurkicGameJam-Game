@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4084b2ee83b7d9544b91c9e70d54c4ad, type: 3}
   m_Name: State
   m_EditorClassIdentifier: 
-  ID: 
-  actions: []
+  ID: a-mini
+  actions:
+  - {fileID: 0}
   transitions: []

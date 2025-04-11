@@ -12,6 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4084b2ee83b7d9544b91c9e70d54c4ad, type: 3}
   m_Name: State_Choice
   m_EditorClassIdentifier: 
-  ID: 
-  actions: []
-  transitions: []
+  ID: State_Choice
+  actions:
+  - {fileID: 11400000, guid: 85e8bfec306c29f4f987e1bddac90fc3, type: 2}
+  transitions:
+  - decision: {fileID: 11400000, guid: e376cf937446c9342ac22184aef9b337, type: 2}
+    targetState: State2
+    requiredResult: 1
+  - decision: {fileID: 11400000, guid: 441cef79acba8d64fbd47d1fa05147f3, type: 2}
+    targetState: State
+    requiredResult: 1

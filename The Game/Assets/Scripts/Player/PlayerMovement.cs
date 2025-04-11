@@ -29,7 +29,7 @@ public class PlayerMovement : MonoBehaviour
     void FixedUpdate()
     {
         // Hareket (Rigidbodyn varsa onunla yap)
-        transform.position += (Vector3)movement * moveSpeed * Time.fixedDeltaTime;
+        transform.position += (Vector3)movement * (moveSpeed * Time.fixedDeltaTime);
     }
 
     void UpdateDirectionAnimation(Vector2 move)
