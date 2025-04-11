@@ -32,13 +32,21 @@ public class InputHandler : MonoBehaviour
 
     private void SubscribeEvents()
     {
- 
+      
+        onMovementPerformed = HandleMovementPerformed;
+        _playerController.Player.Movement.performed += onMovementPerformed;
+
+        onMovementCanceled = HandleMovementCanceled;
+        _playerController.Player.Movement.canceled += onMovementCanceled;
+        
     }
 
     private void UnsubscribeEvents()
     {
    
- 
+        _playerController.Player.Movement.performed -= onMovementPerformed;
+        _playerController.Player.Movement.canceled -= onMovementCanceled;
+        
     }
 
     // Movement
@@ -48,5 +56,12 @@ public class InputHandler : MonoBehaviour
         _inputData.InputVectorX = moveInput.x;
         _inputData.InputVectorY = moveInput.y;
     }
+
+    private void HandleMovementCanceled(InputAction.CallbackContext ctx)
+    {
+        _inputData.InputVectorX = 0;
+        _inputData.InputVectorY = 0;
+    }
     
+   
 }
