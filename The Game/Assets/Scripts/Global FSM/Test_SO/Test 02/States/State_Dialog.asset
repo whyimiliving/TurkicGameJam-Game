@@ -12,6 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4084b2ee83b7d9544b91c9e70d54c4ad, type: 3}
   m_Name: State_Dialog
   m_EditorClassIdentifier: 
-  ID: 
-  actions: []
-  transitions: []
+  ID: State_Dialog
+  actions:
+  - {fileID: 11400000, guid: e7c21c846df5042489d50e90b3404bb6, type: 2}
+  transitions:
+  - decision: {fileID: 11400000, guid: 9dd2e7a4e5ea042468671184b520d112, type: 2}
+    targetState: State_Choice
+    requiredResult: 1

@@ -13,5 +13,7 @@ MonoBehaviour:
   m_Name: Choice Block
   m_EditorClassIdentifier: 
   choices:
-  - displayText: 
-    choiceID: 
+  - displayText: "Sava\u015F"
+    choiceID: attack
+  - displayText: "Ka\xE7"
+    choiceID: run
