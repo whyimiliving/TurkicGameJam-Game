@@ -16,6 +16,6 @@ MonoBehaviour:
   actions:
   - {fileID: 11400000, guid: 19cf31abc3a684f419442eba43ad9ee5, type: 2}
   transitions:
-  - decision: {fileID: 11400000, guid: 9dd2e7a4e5ea042468671184b520d112, type: 2}
+  - decision: {fileID: 11400000, guid: cb3c88b484406f34382d3220e8ec8a01, type: 2}
     targetState: a-mini
     requiredResult: 1
