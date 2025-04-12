@@ -1,4 +1,4 @@
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEditor.SceneManagement;
 using UnityEngine.SceneManagement;
 
@@ -9,10 +9,18 @@ public static class GameNames
 
 public class MiniGameManager : MonoBehaviour
 {
+    public static MiniGameManager _miniGameManager;
 
-    void Start()
+    void Awake()
     {
-
+        if (_miniGameManager == null)
+        {
+            _miniGameManager = this;
+        }
+        else
+        {
+            Destroy(this);
+        }
     }
 
     void Update()
@@ -32,18 +40,27 @@ public class MiniGameManager : MonoBehaviour
         }
     }
 
-    public void MiniGameEnd(string gameName)
-    {
-        // TODO:
-    }
-
     public void StopMainGame()
     {
 
     }
 
+    public void CheckForItems(string gameName)
+    {
+        if (gameName == GameNames.OntaleScene)
+        {
+            // TODO: itemlerı koy
+        }
+    }
+
     public void StartOntaleGame()
     {
         SceneManager.LoadScene(GameNames.OntaleScene, LoadSceneMode.Additive);
+    }
+
+    public void CloseMinigame(string gameName)
+    {
+        SceneManager.UnloadSceneAsync(gameName);
+        CheckForItems(GameNames.OntaleScene);
     }
 }
