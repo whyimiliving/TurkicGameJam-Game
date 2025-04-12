@@ -9,6 +9,7 @@ public class PlayerMovement : MonoBehaviour
     private Vector2 movement;
     
     [SerializeField] InputData inputData;
+    
     void Update()
     {
         // Input
@@ -25,15 +26,11 @@ public class PlayerMovement : MonoBehaviour
 
         UpdateDirectionAnimation(movement);
     }
-
-    void FixedUpdate()
-    {
-        // Hareket (Rigidbodyn varsa onunla yap)
-        transform.position += (Vector3)movement * (moveSpeed * Time.fixedDeltaTime);
-    }
+    
 
     void UpdateDirectionAnimation(Vector2 move)
     {
+        transform.position += (Vector3)movement * (moveSpeed * Time.deltaTime);
         if (move == Vector2.zero) return;
 
         string direction = "";

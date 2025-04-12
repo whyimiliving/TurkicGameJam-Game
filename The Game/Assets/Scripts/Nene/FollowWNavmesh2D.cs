@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using UnityEngine.AI;
 
@@ -25,13 +26,15 @@ public class FollowWNavmesh2D : MonoBehaviour
         spriteRenderer = GetComponent<SpriteRenderer>();
     }
 
+    private void LateUpdate()
+    {
+        agent.SetDestination(target.position);
+    }
+
     void Update()
     {
         if (target == null) return;
-
-      
-        agent.SetDestination(target.position);
-
+        
       
         Vector2 direction = (agent.velocity).normalized;
 
