@@ -2,7 +2,7 @@
 
 namespace FSM.Decisions
 {
-    [CreateAssetMenu(menuName = "FSM/Decisions/Cutscene Finished")]
+    [CreateAssetMenu(menuName = "FSM/Decisions Legacy/Cutscene Finished")]
     public class DecisionCutsceneFinished : FSMDecision
     {
         public override bool Decide(FSMContext context)

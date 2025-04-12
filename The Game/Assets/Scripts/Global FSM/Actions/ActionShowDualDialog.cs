@@ -3,7 +3,7 @@ using UnityEngine;
 
 namespace FSM.Actions
 {
-    [CreateAssetMenu(menuName = "FSM/Actions/Show Dual Dialog Timed")]
+    [CreateAssetMenu(menuName = "FSM/Actions Texts/Show Dual Dialog Timed")]
     public class ActionShowDualDialog : FSMAction
     {
         [TextArea] public string[] lines;
