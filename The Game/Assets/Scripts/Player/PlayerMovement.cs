@@ -12,6 +12,7 @@ public class PlayerMovement : MonoBehaviour
     void Update()
     {
         // Input
+        //fasjpı
         movement.x = Input.GetAxisRaw("Horizontal");
         movement.y = Input.GetAxisRaw("Vertical");
 
