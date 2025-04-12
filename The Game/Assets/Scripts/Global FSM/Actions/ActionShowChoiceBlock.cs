@@ -2,7 +2,7 @@
 
 namespace FSM.Actions
 {
-    [CreateAssetMenu(menuName = "FSM/Actions/Show Choice Block")]
+    [CreateAssetMenu(menuName = "FSM/Actions Texts/Show Choice Block")]
     public class FSMAction_ShowChoiceBlock : FSMAction
     {
         public ChoiceBlock block;

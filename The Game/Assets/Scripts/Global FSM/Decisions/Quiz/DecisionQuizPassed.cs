@@ -2,7 +2,7 @@
 
 namespace FSM.Decisions
 {
-    [CreateAssetMenu(menuName = "FSM/Decisions/Quiz Passed")]
+    [CreateAssetMenu(menuName = "FSM/Decisions Quiz/Quiz Passed")]
     public class DecisionQuizPassed : FSMDecision
     {
         public override bool Decide(FSMContext context)

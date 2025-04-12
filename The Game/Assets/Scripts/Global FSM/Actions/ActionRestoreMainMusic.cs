@@ -2,7 +2,7 @@
 
 namespace FSM.Actions
 {
-    [CreateAssetMenu(menuName = "FSM/Actions/Restore Main Music")]
+    [CreateAssetMenu(menuName = "FSM/Actions Sound/Restore Main Music")]
     public class ActionRestoreMainMusic : FSMAction
     {
         public float fadeTime = 0.5f;

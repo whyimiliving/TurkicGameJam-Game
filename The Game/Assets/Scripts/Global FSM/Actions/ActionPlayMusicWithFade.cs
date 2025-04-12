@@ -2,7 +2,7 @@
 
 namespace FSM.Actions
 {
-    [CreateAssetMenu(menuName = "FSM/Actions/Play Music With Fade")]
+    [CreateAssetMenu(menuName = "FSM/Actions Sound/Play Music With Fade")]
     public class ActionPlayMusicWithFade : FSMAction
     {
         public AudioClip musicClip;

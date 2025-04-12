@@ -2,7 +2,7 @@
 
 namespace FSM.Decisions
 {
-    [CreateAssetMenu(menuName = "FSM/Decisions/Minigame")]
+    [CreateAssetMenu(menuName = "FSM/Decisions Legacy/Minigame")]
     public class DecisionMinigame : FSMDecision
     {
         public override bool Decide(FSMContext context)

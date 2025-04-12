@@ -2,7 +2,7 @@
 
 namespace FSM.Decisions
 {
-    [CreateAssetMenu(menuName = "FSM/Decisions/Dialog Fully Complete")]
+    [CreateAssetMenu(menuName = "FSM/Decisions Text/Dialog Fully Complete")]
     public class DecisionDialogFullyComplete : FSMDecision
     {
         public override bool Decide(FSMContext context)

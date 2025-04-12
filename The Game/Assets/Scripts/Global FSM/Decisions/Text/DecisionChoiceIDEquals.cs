@@ -2,7 +2,7 @@
 
 namespace FSM.Decisions
 {
-    [CreateAssetMenu(menuName = "FSM/Decisions/Choice ID Equals")]
+    [CreateAssetMenu(menuName = "FSM/Decisions Text/Choice ID Equals")]
     public class DecisionChoiceIDEquals : FSMDecision
     {
         public string[] matchIDs;

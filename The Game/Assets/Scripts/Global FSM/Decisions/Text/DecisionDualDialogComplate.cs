@@ -2,7 +2,7 @@
 
 namespace FSM.Decisions
 {
-    [CreateAssetMenu(menuName = "FSM/Decisions/Dual Dialog Complete")]
+    [CreateAssetMenu(menuName = "FSM/Decisions Text/Dual Dialog Complete")]
     public class DecisionDualDialogComplete : FSMDecision
     {
         private float delayTimer = 0f;
