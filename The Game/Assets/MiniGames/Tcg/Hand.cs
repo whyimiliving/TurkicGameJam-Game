@@ -28,10 +28,16 @@ public class Hand : MonoBehaviour
 
     public void AddCards(CardItem[] itemHolders)
     {
-        foreach (CardItem itemHolder in itemHolders)
+        foreach (CardItem cardItem in itemHolders)
         {
-            AddCard(itemHolder);
+            AddCard(cardItem);
+            SpawnItem(cardItem);
         }
+    }
+
+    public void ClearHand()
+    {
+        cardsHand.Clear();
         GenerateHand();
     }
 
@@ -54,17 +60,17 @@ public class Hand : MonoBehaviour
 
         for (int i = 0; i < cardsHand.Count; i++)
         {
-            SpawnItem(i);
+            SpawnItem(cardsHand[i]);
         }
     }
 
-    public void SpawnItem(int i)
+    public void SpawnItem(CardItem cardItem)
     {
         GameObject newItem = Instantiate(handCardGUIPrefab, handParent);
         HandCardGUI handCardGUI = newItem.GetComponent<HandCardGUI>();
         if (handCardGUI != null)
         {
-            handCardGUI.SetPrefab(cardsHand[i]);
+            handCardGUI.SetPrefab(cardItem);
         }
     }
 }

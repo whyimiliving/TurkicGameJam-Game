@@ -28,6 +28,10 @@ public class OntalePlayerHP : MonoBehaviour
     public void TakeDmg(float dmg)
     {
         currentHp -= dmg;
+        if (currentHp <= 0)
+        {
+            MiniGameManager._miniGameManager.CloseMinigame(GameNames.OntaleScene, false);
+        }
         UpdateHpBar();
     }
 

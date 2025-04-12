@@ -19,22 +19,17 @@ public class SnakeMain : MonoBehaviour, IAnimStarter
         StartCoroutine(StartFight());
     }
 
-    void Update()
-    {
-
-    }
-
     IEnumerator StartFight()
     {
-        Debug.Log("Bişiler Söyle");
-        yield return new WaitForSeconds(3);
-        //yield return new WaitUntil(() => conditionMet);
-        Debug.Log("start");
+        animator.SetTrigger("Talk");
+        yield return new WaitForSeconds(5);
         ChoseRandomAttack();
     }
 
     IEnumerator SayRandom()
     {
+        animator.SetTrigger("Talk");
+        yield return new WaitForSeconds(2);
         if (obstacles.Length > currentLvl && obstacles[currentLvl])
         {
             obstacles[currentLvl]?.SetActive(true);
@@ -43,14 +38,12 @@ public class SnakeMain : MonoBehaviour, IAnimStarter
 
         if (snakeHp.currentHp <= 0)
         {
-            Debug.Log("kaybettim gg");
             yield return new WaitForSeconds(5);
-            MiniGameManager._miniGameManager.CloseMinigame(GameNames.OntaleScene);
+            MiniGameManager._miniGameManager.CloseMinigame(GameNames.OntaleScene, true);
         }
         else
         {
-            Debug.Log("Başka Bişiler Söyle");
-            yield return new WaitForSeconds(5);
+            yield return new WaitForSeconds(8);
             ChoseRandomAttack();
         }
     }
@@ -78,6 +71,7 @@ public class SnakeMain : MonoBehaviour, IAnimStarter
         yield return new WaitUntil(() => conditionMet);
         conditionMet = false;
         snakeHp.TakeDmg(1);
+        StartShake();
         StartCoroutine(SayRandom());
     }
 
@@ -87,6 +81,7 @@ public class SnakeMain : MonoBehaviour, IAnimStarter
         yield return new WaitUntil(() => conditionMet);
         conditionMet = false;
         snakeHp.TakeDmg(1);
+        StartShake();
         StartCoroutine(SayRandom());
     }
 
@@ -96,6 +91,7 @@ public class SnakeMain : MonoBehaviour, IAnimStarter
         yield return new WaitUntil(() => conditionMet);
         conditionMet = false;
         snakeHp.TakeDmg(2);
+        StartShake();
         StartCoroutine(SayRandom());
     }
 
@@ -120,4 +116,41 @@ public class SnakeMain : MonoBehaviour, IAnimStarter
     {
         conditionMet = true;
     }
+
+#region shake
+    public float shakeDuration = 1.5f;
+    public float shakeMagnitude = 0.05f;
+
+    private Vector3 originalPosition;
+
+    void OnEnable()
+    {
+        originalPosition = transform.localPosition;
+    }
+
+    public void StartShake()
+    {
+        StartCoroutine(Shake());
+    }
+
+    private IEnumerator Shake()
+    {
+        float elapsed = 0.0f;
+
+        while (elapsed < shakeDuration)
+        {
+            float x = Random.Range(-1f, 1f) * shakeMagnitude;
+            float y = Random.Range(-1f, 1f) * shakeMagnitude;
+
+            transform.localPosition = originalPosition + new Vector3(x, y, 0);
+
+            elapsed += Time.deltaTime;
+
+            yield return null;
+        }
+
+        transform.localPosition = originalPosition;
+    }
+#endregion
+
 }

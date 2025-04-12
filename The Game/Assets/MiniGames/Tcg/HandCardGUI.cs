@@ -16,6 +16,17 @@ public class HandCardGUI : MonoBehaviour
 
     public void UseMe()
     {
+        Transform parent = this.gameObject.transform.parent;
+        int index = this.gameObject.transform.GetSiblingIndex();
+        Hand._hand.RemoveFromDeck(index);
 
+        EnemyMonster[] allEnemyMonsters = FindObjectsOfType<EnemyMonster>();
+        allEnemyMonsters[0].TakeDmg(cardItem.power);
+        DestroyAnim();
+    }
+
+    public void DestroyAnim()
+    {
+        Destroy(this.gameObject);
     }
 }

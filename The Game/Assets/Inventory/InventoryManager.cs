@@ -26,10 +26,26 @@ public class InventoryManager : MonoBehaviour
         GenerateInventory();
     }
 
+    public void RemoveLestValueable()
+    {
+        ItemHolder lowestPowerCard = Cards
+            .Where(holder => holder.itemSo != null) // safety check
+            .OrderBy(holder => holder.itemSo.power)
+            .FirstOrDefault();
+        if (lowestPowerCard != null)
+        {
+            lowestPowerCard.amount--;
+            if (lowestPowerCard.amount <= 0)
+            {
+                Cards.Remove(lowestPowerCard);
+            }
+        }
+    }
+
     public void AddCards(ItemHolder[] itemHolders)
     {
         foreach (ItemHolder itemHolder in itemHolders)
-        { 
+        {
             AddCard(itemHolder);
         }
         GenerateInventory();
