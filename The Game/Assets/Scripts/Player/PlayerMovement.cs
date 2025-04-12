@@ -11,7 +11,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] InputData inputData;
     void Update()
     {
-        // Input
+        // Input 123
         //fasjpı
         movement.x = Input.GetAxisRaw("Horizontal");
         movement.y = Input.GetAxisRaw("Vertical");
