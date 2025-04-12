@@ -12,6 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4084b2ee83b7d9544b91c9e70d54c4ad, type: 3}
   m_Name: QuizTrigger_State
   m_EditorClassIdentifier: 
-  ID: 
+  ID: QuizTrigger_State
   actions: []
-  transitions: []
+  transitions:
+  - decision: {fileID: 11400000, guid: 96c67299ee68e49459dad4058a39f5d7, type: 2}
+    targetState: SoundStart
+    requiredResult: 1
