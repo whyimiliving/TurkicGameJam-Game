@@ -1,25 +1,25 @@
 fileFormatVersion: 2
-guid: 293d61b3543d27e47848f9190fa4377d
+guid: 17ff3412e97441d40bab0ad4175a1807
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1152337107289871218
-    second: torun_walk_up_0
+      213: 494136834298049239
+    second: torun_walk_side_0
   - first:
-      213: 3814411599412092100
-    second: torun_walk_up_1
+      213: 3832889676095209629
+    second: torun_walk_side_1
   - first:
-      213: -195707851660462152
-    second: torun_walk_up_2
+      213: 4593866866187028357
+    second: torun_walk_side_2
   - first:
-      213: 3435256125177761267
-    second: torun_walk_up_3
+      213: -7149230664955508644
+    second: torun_walk_side_3
   - first:
-      213: -4286733622035986694
-    second: torun_walk_up_4
+      213: 4132528013452600147
+    second: torun_walk_side_4
   - first:
-      213: 1902902275703259988
-    second: torun_walk_up_5
+      213: 7406583047360442020
+    second: torun_walk_side_5
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -115,12 +115,12 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: torun_walk_up_0
+      name: torun_walk_side_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 8
-        width: 22
+        x: 2
+        y: 0
+        width: 21
         height: 52
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -130,85 +130,85 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 27393856e7cedff00800000000000000
-      internalID: 1152337107289871218
+      spriteID: 7d275ce25d68bd600800000000000000
+      internalID: 494136834298049239
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: torun_walk_up_1
+      name: torun_walk_side_1
       rect:
         serializedVersion: 2
-        x: 33
-        y: 7
-        width: 21
-        height: 53
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4cc561ad3238fe430800000000000000
-      internalID: 3814411599412092100
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: torun_walk_up_2
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 6
-        width: 21
-        height: 55
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8b7f50eeeb4b84df0800000000000000
-      internalID: -195707851660462152
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: torun_walk_up_3
-      rect:
-        serializedVersion: 2
-        x: 97
-        y: 7
-        width: 20
-        height: 53
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3fd84bdbe3b7caf20800000000000000
-      internalID: 3435256125177761267
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: torun_walk_up_4
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 8
+        x: 25
+        y: 4
         width: 22
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d90cae65ad8213530800000000000000
+      internalID: 3832889676095209629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: torun_walk_side_2
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 2
+        width: 22
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 587c3805391b0cf30800000000000000
+      internalID: 4593866866187028357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: torun_walk_side_3
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 2
+        width: 23
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c584ff5a694d8cc90800000000000000
+      internalID: -7149230664955508644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: torun_walk_side_4
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 0
+        width: 46
         height: 52
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -218,20 +218,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: af642db9b767284c0800000000000000
-      internalID: -4286733622035986694
+      spriteID: 353613a4550b95930800000000000000
+      internalID: 4132528013452600147
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: torun_walk_up_5
+      name: torun_walk_side_5
       rect:
         serializedVersion: 2
-        x: 159
-        y: 6
-        width: 24
-        height: 53
+        x: 140
+        y: 2
+        width: 21
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -240,8 +240,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4534399a987786a10800000000000000
-      internalID: 1902902275703259988
+      spriteID: 4ae69513a0879c660800000000000000
+      internalID: 7406583047360442020
       vertices: []
       indices: 
       edges: []
@@ -260,12 +260,12 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      torun_walk_up_0: 1152337107289871218
-      torun_walk_up_1: 3814411599412092100
-      torun_walk_up_2: -195707851660462152
-      torun_walk_up_3: 3435256125177761267
-      torun_walk_up_4: -4286733622035986694
-      torun_walk_up_5: 1902902275703259988
+      torun_walk_side_0: 494136834298049239
+      torun_walk_side_1: 3832889676095209629
+      torun_walk_side_2: 4593866866187028357
+      torun_walk_side_3: -7149230664955508644
+      torun_walk_side_4: 4132528013452600147
+      torun_walk_side_5: 7406583047360442020
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

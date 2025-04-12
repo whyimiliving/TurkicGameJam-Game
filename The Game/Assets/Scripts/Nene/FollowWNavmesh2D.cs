@@ -1,4 +1,3 @@
-using System;
 using UnityEngine;
 using UnityEngine.AI;
 
@@ -22,40 +21,35 @@ public class FollowWNavmesh2D : MonoBehaviour
         agent.updateUpAxis = false;
         agent.stoppingDistance = distance;
 
-       // animator = GetComponent<Animator>();
-     //   spriteRenderer = GetComponent<SpriteRenderer>();
+        animator = GetComponent<Animator>();
+        spriteRenderer = GetComponent<SpriteRenderer>();
     }
 
-    private void LateUpdate()
-    {
-        agent.SetDestination(target.position);
-    }
-
- /*   void Update()
+    void LateUpdate()
     {
         if (target == null) return;
-        
-      
-        Vector2 direction = (agent.velocity).normalized;
 
-        if (direction.magnitude > 0.1f)
+        agent.SetDestination(target.position);
+
+        Vector2 velocity = agent.velocity;
+
+        if (velocity.magnitude > 0.01f)
         {
-            lastDirection = direction;
+            Vector2 dir = velocity.normalized;
+            lastDirection = dir;
 
-            
-            animator.SetFloat("MoveX", direction.x);
-            animator.SetFloat("MoveY", direction.y);
-            animator.SetBool("IsMoving", true);
+            animator.SetFloat("MoveX", Mathf.Abs(dir.x));
+            animator.SetFloat("MoveY", dir.y);
+            animator.SetFloat("Speed", velocity.sqrMagnitude);
+
+            if (dir.x != 0)
+                spriteRenderer.flipX = dir.x < 0;
         }
         else
         {
-            animator.SetFloat("MoveX", lastDirection.x);
+            animator.SetFloat("MoveX", Mathf.Abs(lastDirection.x));
             animator.SetFloat("MoveY", lastDirection.y);
-            animator.SetBool("IsMoving", false);
+            animator.SetFloat("Speed", 0);
         }
-
-      
-        if (direction.x != 0)
-            spriteRenderer.flipX = direction.x < 0;
-    } */
+    }
 }

@@ -3,62 +3,49 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
     public float moveSpeed = 5f;
-    public Animator animator;
-    public SpriteRenderer spriteRenderer;
-    
+    private Animator animator;
+    private SpriteRenderer spriteRenderer;
+
     private Vector2 movement;
-    
-    [SerializeField] InputData inputData;
-    
+    private Vector2 lastDirection = Vector2.down; // varsayılan başlangıç yönü
+
+    private void Awake()
+    {
+        animator = GetComponent<Animator>();
+        spriteRenderer = GetComponent<SpriteRenderer>();
+    }
+
     void Update()
     {
         // Input
         movement.x = Input.GetAxisRaw("Horizontal");
         movement.y = Input.GetAxisRaw("Vertical");
 
-        // Normalize (diagonaller hızlı gitmesin)
+        // Normalize
         movement = movement.normalized;
 
-        // Animator parametreleri
-        animator.SetFloat("Horizontal", movement.x);
-        animator.SetFloat("Vertical", movement.y);
-        animator.SetFloat("Speed", movement.sqrMagnitude);
-       transform.position += (Vector3)movement * (moveSpeed * Time.deltaTime);
-       // UpdateDirectionAnimation(movement);
-    }
-    
-
-   /* void UpdateDirectionAnimation(Vector2 move)
-    {
-        
-        if (move == Vector2.zero) return;
-
-        string direction = "";
-
-        if (move.y > 0)
-        {
-            if (move.x > 0) direction = "UpRight";
-            else if (move.x < 0) direction = "UpRight"; // Flip'le sol yapacağız
-            else direction = "Up";
-        }
-        else if (move.y < 0)
-        {
-            if (move.x > 0) direction = "DownRight";
-            else if (move.x < 0) direction = "DownRight"; // Flip'le sol yapacağız
-            else direction = "Down";
-        }
-        else
-        {
-            if (move.x > 0) direction = "Right";
-            else if (move.x < 0) direction = "Right"; // Flip'le sol yapacağız
-        }
-
-        // FlipX sol yönler için
-        if (move.x < 0)
+        // Sprite yönü
+        if (movement.x < 0)
             spriteRenderer.flipX = true;
-        else if (move.x > 0)
+        else if (movement.x > 0)
             spriteRenderer.flipX = false;
 
-        animator.Play(direction);
-    }*/
+        // Son yönü güncelle (hareket varsa)
+        if (movement != Vector2.zero)
+            lastDirection = movement;
+
+        // Blend Tree’ye yön bilgisi gönder
+        Vector2 animDirection = (movement != Vector2.zero) ? movement : lastDirection;
+
+        // SADECE animasyon yönü sağ gibi gösterilmeli çünkü sol yönleri flipX ile çözüyoruz
+        float animMoveX = Mathf.Abs(animDirection.x); // Flip'e göre pozitif gönder
+        float animMoveY = animDirection.y; // Y değeri negatif/pozitif kalmalı
+
+        animator.SetFloat("MoveX", animMoveX);
+        animator.SetFloat("MoveY", animMoveY);
+        animator.SetFloat("Speed", movement.sqrMagnitude);
+
+        // Hareket ettir
+        transform.position += (Vector3)movement * (moveSpeed * Time.deltaTime);
+    }
 }
