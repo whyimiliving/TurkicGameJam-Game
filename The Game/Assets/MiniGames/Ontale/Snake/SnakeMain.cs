@@ -35,8 +35,12 @@ public class SnakeMain : MonoBehaviour, IAnimStarter
 
     IEnumerator SayRandom()
     {
-        obstacles[currentLvl].SetActive(true);
-        currentLvl++;
+        if (obstacles.Length > currentLvl && obstacles[currentLvl])
+        {
+            obstacles[currentLvl]?.SetActive(true);
+            currentLvl++;
+        }
+
         if (snakeHp.currentHp <= 0)
         {
             Debug.Log("kaybettim gg");
@@ -49,11 +53,6 @@ public class SnakeMain : MonoBehaviour, IAnimStarter
             yield return new WaitForSeconds(5);
             ChoseRandomAttack();
         }
-    }
-
-    void CreateNewObstacle()
-    {
-
     }
 
     void ChoseRandomAttack()
