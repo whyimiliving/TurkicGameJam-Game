@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Threading;
+using TMPro;
 using UnityEngine;
 
 public class SnakeMain : MonoBehaviour, IAnimStarter
@@ -38,12 +39,14 @@ public class SnakeMain : MonoBehaviour, IAnimStarter
 
         if (snakeHp.currentHp <= 0)
         {
-            yield return new WaitForSeconds(5);
+            StartCoroutine(ShowTextOneByOne(strings[0]));
+            yield return new WaitForSeconds(7);
             MiniGameManager._miniGameManager.CloseMinigame(GameNames.OntaleScene, true);
         }
         else
         {
-            yield return new WaitForSeconds(8);
+            StartCoroutine(ShowTextOneByOne(strings[Random.Range(1, strings.Length)]));
+            yield return new WaitForSeconds(4);
             ChoseRandomAttack();
         }
     }
@@ -151,6 +154,23 @@ public class SnakeMain : MonoBehaviour, IAnimStarter
 
         transform.localPosition = originalPosition;
     }
-#endregion
+    #endregion
 
+
+    #region Chat
+
+    public TextMeshProUGUI chatTmp;
+    public float typingSpeed = 0.15f; 
+    public string[] strings;
+
+    IEnumerator ShowTextOneByOne(string fullText)
+    {
+        chatTmp.text = "";
+        foreach (char c in fullText)
+        {
+            chatTmp.text += c;
+            yield return new WaitForSeconds(typingSpeed);
+        }
+    }
+    #endregion
 }

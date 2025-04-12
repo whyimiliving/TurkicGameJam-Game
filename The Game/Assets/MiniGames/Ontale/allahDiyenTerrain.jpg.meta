@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: bd7cd5687bc2bab4db0ab6bf0ac28580
+guid: b6bcaa08ea036e5499507948bd4a21a2
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4813688275946867172
-    second: enemyCard_0
+      213: -8705905166248673370
+    second: allahDiyenTerrain_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: enemyCard_0
+      name: allahDiyenTerrain_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 406
-        height: 420
+        width: 1600
+        height: 1107
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c1679bc5408523db0800000000000000
-      internalID: -4813688275946867172
+      spriteID: 6af728d80696e2780800000000000000
+      internalID: -8705905166248673370
       vertices: []
       indices: 
       edges: []
@@ -134,8 +134,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      enemyCard_0: -4813688275946867172
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
