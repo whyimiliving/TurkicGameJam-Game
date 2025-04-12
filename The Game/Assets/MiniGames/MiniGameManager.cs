@@ -32,6 +32,11 @@ public class MiniGameManager : MonoBehaviour
         }
     }
 
+    public void MiniGameEnd(string gameName)
+    {
+        // TODO:
+    }
+
     public void StopMainGame()
     {
 

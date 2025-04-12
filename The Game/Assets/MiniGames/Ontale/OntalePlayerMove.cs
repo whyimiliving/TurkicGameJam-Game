@@ -2,7 +2,9 @@ using UnityEngine;
 
 public class OntalePlayerMove : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    public float moveSpeed = 5f;
+    private Vector2 movement;
+
     void Start()
     {
         
@@ -11,6 +13,16 @@ public class OntalePlayerMove : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        Movement();
+    }
+
+    void Movement()
+    {
+        movement.x = Input.GetAxisRaw("Horizontal");
+        movement.y = Input.GetAxisRaw("Vertical");
+
+        movement = movement.normalized;
+
+        transform.position += (Vector3)movement * (moveSpeed * Time.fixedDeltaTime);
     }
 }
