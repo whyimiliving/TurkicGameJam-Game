@@ -88,10 +88,18 @@ public class MiniGameManager : MonoBehaviour
         SceneManager.LoadScene(GameNames.TcgScene, LoadSceneMode.Additive);
     }
 
-    public void CloseMinigame(string gameName)
+    public void CloseMinigame(string gameName, bool isGood)
     {
         SceneManager.UnloadSceneAsync(gameName);
-        CheckForItems(GameNames.OntaleScene);
+        if (isGood)
+        {
+            CheckForItems(GameNames.OntaleScene);
+        }
+        else
+        {
+            InventoryManager._inventoryManager.RemoveLestValueable();
+        }
+
         isIngame = false;
         RenderGameobjects();
     }
