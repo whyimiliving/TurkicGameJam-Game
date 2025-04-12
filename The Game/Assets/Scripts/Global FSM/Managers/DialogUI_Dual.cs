@@ -7,7 +7,7 @@ public class DialogUI_Dual : MonoBehaviour
 {
     public static DialogUI_Dual Instance;
 
-    public GameObject panel;
+    public GameObject[] panel;
     public TextMeshProUGUI speakerAText;
     public TextMeshProUGUI speakerBText;
 
@@ -41,24 +41,38 @@ public class DialogUI_Dual : MonoBehaviour
     {
         if (currentLines == null || currentLineIndex >= currentLines.Length) return;
 
-        string line = currentLines[currentLineIndex];
+        string line = currentLines[currentLineIndex].Trim();
+
+        // ✅ Eğer satır boşsa → sıradakine geç
+        if (string.IsNullOrEmpty(line))
+        {
+            currentLineIndex++;
+            ShowNextLine(); // RECURSIVE çağrı ile boş satırları atla
+            return;
+        }
+
         bool isA = currentLineIndex % 2 == 0;
 
         if (isA)
         {
-            StartCoroutine(TypeLine(speakerAText, line.Trim(), speakerBText));
+            StartCoroutine(TypeLine(speakerAText, line, speakerBText));
         }
         else
         {
-            StartCoroutine(TypeLine(speakerBText, line.Trim(), speakerAText));
+            StartCoroutine(TypeLine(speakerBText, line, speakerAText));
         }
 
         currentLineIndex++;
     }
 
+
     private IEnumerator TypeLine(TextMeshProUGUI activeField, string text, TextMeshProUGUI otherField)
     {
-        panel.SetActive(true);
+        for (int i = 0; i < panel.Length; i++)
+        {
+            panel[i].SetActive(true);
+        }
+        
         activeField.text = "";
         otherField.text = "";
         IsTyping = true;
@@ -76,7 +90,10 @@ public class DialogUI_Dual : MonoBehaviour
     {
         speakerAText.text = "";
         speakerBText.text = "";
-        panel.SetActive(false);
+        for (int i = 0; i < panel.Length; i++)
+        {
+            panel[i].SetActive(false);
+        }
         IsTyping = false;
         currentLineIndex = 0;
         currentLines = null;

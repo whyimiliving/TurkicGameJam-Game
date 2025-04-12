@@ -22,8 +22,8 @@ public class FollowWNavmesh2D : MonoBehaviour
         agent.updateUpAxis = false;
         agent.stoppingDistance = distance;
 
-        animator = GetComponent<Animator>();
-        spriteRenderer = GetComponent<SpriteRenderer>();
+       // animator = GetComponent<Animator>();
+     //   spriteRenderer = GetComponent<SpriteRenderer>();
     }
 
     private void LateUpdate()
@@ -31,7 +31,7 @@ public class FollowWNavmesh2D : MonoBehaviour
         agent.SetDestination(target.position);
     }
 
-    void Update()
+ /*   void Update()
     {
         if (target == null) return;
         
@@ -57,5 +57,5 @@ public class FollowWNavmesh2D : MonoBehaviour
       
         if (direction.x != 0)
             spriteRenderer.flipX = direction.x < 0;
-    }
+    } */
 }

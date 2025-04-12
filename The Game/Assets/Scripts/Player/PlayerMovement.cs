@@ -23,14 +23,14 @@ public class PlayerMovement : MonoBehaviour
         animator.SetFloat("Horizontal", movement.x);
         animator.SetFloat("Vertical", movement.y);
         animator.SetFloat("Speed", movement.sqrMagnitude);
-
-        UpdateDirectionAnimation(movement);
+       transform.position += (Vector3)movement * (moveSpeed * Time.deltaTime);
+       // UpdateDirectionAnimation(movement);
     }
     
 
-    void UpdateDirectionAnimation(Vector2 move)
+   /* void UpdateDirectionAnimation(Vector2 move)
     {
-        transform.position += (Vector3)movement * (moveSpeed * Time.deltaTime);
+        
         if (move == Vector2.zero) return;
 
         string direction = "";
@@ -60,5 +60,5 @@ public class PlayerMovement : MonoBehaviour
             spriteRenderer.flipX = false;
 
         animator.Play(direction);
-    }
+    }*/
 }

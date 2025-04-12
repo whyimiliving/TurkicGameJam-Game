@@ -11,7 +11,7 @@ namespace FSM.Actions
 
         private bool started = false;
         private float delayTimer = 0f;
-        private float delayAfterLine = 3f;
+        public float delayAfterLine = 0f;
         private bool waitingForNextLine = false;
         private bool waitingToFinish = false;
 
