@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 35978570f54173948b2fee1869329161
+guid: 7d5819e6a304ab34399e596abeb442c3
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -20,6 +20,9 @@ TextureImporter:
   - first:
       213: -776962311483152869
     second: torun_walk_right_5
+  - first:
+      213: -2419597577473127845
+    second: torun_walk_right_6
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -66,7 +69,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 64
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -118,10 +121,10 @@ TextureImporter:
       name: torun_walk_right_0
       rect:
         serializedVersion: 2
-        x: 2
-        y: 0
+        x: 17
+        y: 8
         width: 19
-        height: 51
+        height: 52
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -140,10 +143,10 @@ TextureImporter:
       name: torun_walk_right_1
       rect:
         serializedVersion: 2
-        x: 26
-        y: 1
+        x: 65
+        y: 10
         width: 20
-        height: 50
+        height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -162,8 +165,8 @@ TextureImporter:
       name: torun_walk_right_2
       rect:
         serializedVersion: 2
-        x: 49
-        y: 1
+        x: 112
+        y: 10
         width: 22
         height: 50
       alignment: 0
@@ -184,8 +187,8 @@ TextureImporter:
       name: torun_walk_right_3
       rect:
         serializedVersion: 2
-        x: 73
-        y: 2
+        x: 160
+        y: 11
         width: 21
         height: 49
       alignment: 0
@@ -206,8 +209,8 @@ TextureImporter:
       name: torun_walk_right_4
       rect:
         serializedVersion: 2
-        x: 96
-        y: 2
+        x: 207
+        y: 11
         width: 24
         height: 48
       alignment: 0
@@ -228,9 +231,9 @@ TextureImporter:
       name: torun_walk_right_5
       rect:
         serializedVersion: 2
-        x: 119
-        y: 2
-        width: 49
+        x: 254
+        y: 11
+        width: 26
         height: 49
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -242,6 +245,28 @@ TextureImporter:
       bones: []
       spriteID: b162e2ce4eca735f0800000000000000
       internalID: -776962311483152869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: torun_walk_right_6
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 11
+        width: 26
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5a8157a2dcdb6ed0800000000000000
+      internalID: -2419597577473127845
       vertices: []
       indices: 
       edges: []
@@ -266,6 +291,7 @@ TextureImporter:
       torun_walk_right_3: -8508241820941735527
       torun_walk_right_4: 7309751728912560711
       torun_walk_right_5: -776962311483152869
+      torun_walk_right_6: -2419597577473127845
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

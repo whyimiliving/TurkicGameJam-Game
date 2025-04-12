@@ -1,25 +1,22 @@
 fileFormatVersion: 2
-guid: 3e4204ed2f74d724a946391274914500
+guid: 5fff683ea37f35d4789f13aaa6e282bb
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7052836841325275955
-    second: torun_0
+      213: 8474021021088069042
+    second: nene_up_idle_0
   - first:
-      213: -6686453286512097051
-    second: torun_1
+      213: 3294312896030766758
+    second: nene_up_idle_1
   - first:
-      213: 4809602712805913281
-    second: torun_2
+      213: 5417119207943344753
+    second: nene_up_idle_2
   - first:
-      213: 9147413616208154214
-    second: torun_3
+      213: -497726865024766667
+    second: nene_up_idle_3
   - first:
-      213: 7219530484255480951
-    second: torun_4
-  - first:
-      213: 7236422217267661559
-    second: torun_5
+      213: 4499261439143966616
+    second: nene_up_idle_4
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -66,9 +63,9 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 64
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spriteGenerateFallbackPhysicsShape: 1
+  spriteGenerateFallbackPhysicsShape: 0
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
@@ -115,155 +112,111 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: torun_0
+      name: nene_up_idle_0
       rect:
         serializedVersion: 2
-        x: 2
+        x: 0
         y: 0
-        width: 21
-        height: 52
+        width: 42
+        height: 67
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: dc4d406a24a4f1e90800000000000000
-      internalID: -7052836841325275955
+      spriteID: 2b5b52da835c99570800000000000000
+      internalID: 8474021021088069042
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: torun_1
+      name: nene_up_idle_1
       rect:
         serializedVersion: 2
-        x: 25
-        y: 4
-        width: 22
-        height: 48
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5e8043a8922f433a0800000000000000
-      internalID: -6686453286512097051
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: torun_2
-      rect:
-        serializedVersion: 2
-        x: 47
-        y: 3
-        width: 22
-        height: 49
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1c23d875f242fb240800000000000000
-      internalID: 4809602712805913281
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: torun_3
-      rect:
-        serializedVersion: 2
-        x: 70
-        y: 2
-        width: 23
-        height: 50
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 66e88a7083422fe70800000000000000
-      internalID: 9147413616208154214
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: torun_4
-      rect:
-        serializedVersion: 2
-        x: 93
+        x: 42
         y: 0
-        width: 23
-        height: 52
+        width: 42
+        height: 67
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 77cd62789bce03460800000000000000
-      internalID: 7219530484255480951
+      spriteID: 6a6f6eaff10c7bd20800000000000000
+      internalID: 3294312896030766758
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: torun_5
+      name: nene_up_idle_2
       rect:
         serializedVersion: 2
-        x: 140
-        y: 2
-        width: 21
-        height: 50
+        x: 84
+        y: 0
+        width: 42
+        height: 67
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7facbf89aafec6460800000000000000
-      internalID: 7236422217267661559
+      spriteID: 172986fe7397d2b40800000000000000
+      internalID: 5417119207943344753
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: torun_6
+      name: nene_up_idle_3
       rect:
         serializedVersion: 2
-        x: 116
-        y: 1
-        width: 22
-        height: 51
+        x: 126
+        y: 0
+        width: 42
+        height: 67
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 21b3e7565542b0543b6ebef23ffbfc1a
-      internalID: -803769997
+      spriteID: 53da707ad08b719f0800000000000000
+      internalID: -497726865024766667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nene_up_idle_4
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 0
+        width: 42
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 897f9c7d076907e30800000000000000
+      internalID: 4499261439143966616
       vertices: []
       indices: 
       edges: []
@@ -272,7 +225,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 33cbfa12e11f9cd43b036648ae4d286c
+    spriteID: 95e1e26cf96416b4ba1cd6cc0f37e2c7
     internalID: 0
     vertices: []
     indices: 
@@ -282,13 +235,11 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      torun_0: -7052836841325275955
-      torun_1: -6686453286512097051
-      torun_2: 4809602712805913281
-      torun_3: 9147413616208154214
-      torun_4: 7219530484255480951
-      torun_5: 7236422217267661559
-      torun_6: -803769997
+      nene_up_idle_0: 8474021021088069042
+      nene_up_idle_1: 3294312896030766758
+      nene_up_idle_2: 5417119207943344753
+      nene_up_idle_3: -497726865024766667
+      nene_up_idle_4: 4499261439143966616
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

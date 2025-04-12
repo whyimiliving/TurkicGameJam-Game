@@ -1,19 +1,22 @@
 fileFormatVersion: 2
-guid: 7203769d04595dd4d80c8d7fe45f9f12
+guid: 280af01339274514abc44b8665307f69
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3942512986703733201
-    second: nene_iddle_down_right_0
+      213: -8768908015145183497
+    second: nene_idle_up_right_0
   - first:
-      213: 7729342351401471822
-    second: nene_iddle_down_right_1
+      213: 6239028898291692980
+    second: nene_idle_up_right_1
   - first:
-      213: 5896461903018678624
-    second: nene_iddle_down_right_2
+      213: -5275618809445928362
+    second: nene_idle_up_right_2
   - first:
-      213: -4613950683011574314
-    second: nene_iddle_down_right_3
+      213: -2170090539839717403
+    second: nene_idle_up_right_3
+  - first:
+      213: -5620843135575774409
+    second: nene_idle_up_right_4
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -60,7 +63,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 64
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -109,89 +112,111 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: nene_iddle_down_right_0
+      name: nene_idle_up_right_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 43
-        height: 67
+        width: 41
+        height: 63
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f2ed821b3516949c0800000000000000
-      internalID: -3942512986703733201
+      spriteID: 7f61231be949e4680800000000000000
+      internalID: -8768908015145183497
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: nene_iddle_down_right_1
+      name: nene_idle_up_right_1
       rect:
         serializedVersion: 2
-        x: 44
+        x: 39
         y: 0
-        width: 43
-        height: 67
+        width: 42
+        height: 63
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e4fcaa2bae3244b60800000000000000
-      internalID: 7729342351401471822
+      spriteID: 4b5b21a2abb759650800000000000000
+      internalID: 6239028898291692980
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: nene_iddle_down_right_2
+      name: nene_idle_up_right_2
       rect:
         serializedVersion: 2
-        x: 87
+        x: 79
         y: 0
-        width: 45
-        height: 66
+        width: 42
+        height: 63
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0695d092cd074d150800000000000000
-      internalID: 5896461903018678624
+      spriteID: 6523b9ce4ac39c6b0800000000000000
+      internalID: -5275618809445928362
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: nene_iddle_down_right_3
+      name: nene_idle_up_right_3
       rect:
         serializedVersion: 2
-        x: 131
+        x: 119
         y: 0
-        width: 45
-        height: 67
+        width: 42
+        height: 63
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6d59cefac44f7ffb0800000000000000
-      internalID: -4613950683011574314
+      spriteID: 5effa62d62a42e1e0800000000000000
+      internalID: -2170090539839717403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nene_idle_up_right_4
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 0
+        width: 41
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73b20ddd2f0cef1b0800000000000000
+      internalID: -5620843135575774409
       vertices: []
       indices: 
       edges: []
@@ -200,7 +225,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: a701a731d15d001489f5405f7eb883cd
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -210,10 +235,11 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      nene_iddle_down_right_0: -3942512986703733201
-      nene_iddle_down_right_1: 7729342351401471822
-      nene_iddle_down_right_2: 5896461903018678624
-      nene_iddle_down_right_3: -4613950683011574314
+      nene_idle_up_right_0: -8768908015145183497
+      nene_idle_up_right_1: 6239028898291692980
+      nene_idle_up_right_2: -5275618809445928362
+      nene_idle_up_right_3: -2170090539839717403
+      nene_idle_up_right_4: -5620843135575774409
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
