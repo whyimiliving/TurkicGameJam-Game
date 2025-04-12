@@ -3,7 +3,7 @@ using UnityEngine;
 
 namespace FSM.Actions
 {
-    [CreateAssetMenu(menuName = "FSM/Actions/Show Dialog")]
+    [CreateAssetMenu(menuName = "FSM/Actions Texts/Show Dialog")]
     public class ActionShowDialog : FSMAction
     {
         [TextArea] public string[] lines;
