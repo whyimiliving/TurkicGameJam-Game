@@ -729,19 +729,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   deckCards:
-  - {fileID: 11400000, guid: 16c67ddc0e639b34cb779d6e4ba3b784, type: 2}
   - {fileID: 11400000, guid: 7fde2d112ecd11e4888d1679e4760821, type: 2}
-  - {fileID: 11400000, guid: 33f0c7acfb5cd434dbb12b0b9778a8bf, type: 2}
+  - {fileID: 11400000, guid: 20a8aadc0dd8bec49a1e24812c8ab730, type: 2}
+  - {fileID: 11400000, guid: 051eadcddce3c6048a06384890ae5e81, type: 2}
   EnemyMonster: {fileID: 1007571002711283840, guid: 9ce7586e7f1524c459a9ca0ad0cd3b71, type: 3}
   EnemyMonsterParent: {fileID: 2109574466}
   cardLeft: {fileID: 1145853728}
   chatTmp: {fileID: 21187303}
   typingSpeed: 0.15
   strings:
-  - "Ben en g\xFC\xE7l\xFCy\xFCm"
-  - Ben kaybetmem
-  - "Vergini ver (k\xF6pr\xFC i\xE7in)"
-  - "Dedi\u011Fimi yap"
+  - "Can\u0131n\u0131 al\u0131cam"
+  - Ha ha ha
+  - Kolay olacak
 --- !u!1 &578520747
 GameObject:
   m_ObjectHideFlags: 0
@@ -919,7 +918,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Texture: {fileID: 2800000, guid: cfbdbaf26aa88ae4daed5f339af036d4, type: 3}
+  m_Texture: {fileID: 2800000, guid: 4729dedecb39d6d418b57b308a4c8222, type: 3}
   m_UVRect:
     serializedVersion: 2
     x: 0
@@ -1548,6 +1547,10 @@ PrefabInstance:
     - target: {fileID: 2106992021954620649, guid: dfdfacf922fbb0f409664c56ebf7b5cd, type: 3}
       propertyPath: m_Name
       value: PausePanel
+      objectReference: {fileID: 0}
+    - target: {fileID: 2106992021954620649, guid: dfdfacf922fbb0f409664c56ebf7b5cd, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7051006944520057136, guid: dfdfacf922fbb0f409664c56ebf7b5cd, type: 3}
       propertyPath: m_Pivot.x

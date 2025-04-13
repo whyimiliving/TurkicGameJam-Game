@@ -26,6 +26,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/MiniGames/Tcg/TcgScene.unity
     guid: 4bebef28c73402d4ba149af1b8dd1f28
+  - enabled: 1
+    path: Assets/MiniGames/Tcg/TcgScene2.unity
+    guid: 4035a9c2777739f4390532f50e3e52fd
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

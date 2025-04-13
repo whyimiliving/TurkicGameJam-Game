@@ -8,6 +8,7 @@ public static class GameNames
 {
     public const string OntaleScene = "OntaleScene";
     public const string TcgScene = "TcgScene";
+    public const string TcgScene2 = "TcgScene2";
 }
 
 [System.Serializable]
@@ -54,6 +55,10 @@ public class MiniGameManager : MonoBehaviour
         {
             StartMiniGame(GameNames.TcgScene);
         }
+        if (Input.GetKeyDown(KeyCode.P))
+        {
+            StartMiniGame(GameNames.TcgScene2);
+        }
     }
 
     public void StartMiniGame(string gameName)
@@ -70,6 +75,11 @@ public class MiniGameManager : MonoBehaviour
         {
             StopMainGame();
             StartTcgGame();
+        }
+        else if (gameName == GameNames.TcgScene2)
+        {
+            StopMainGame();
+            StartTcg2Game();
         }
     }
 
@@ -95,6 +105,10 @@ public class MiniGameManager : MonoBehaviour
     public void StartTcgGame()
     {
         SceneManager.LoadScene(GameNames.TcgScene, LoadSceneMode.Additive);
+    }
+    public void StartTcg2Game()
+    {
+        SceneManager.LoadScene(GameNames.TcgScene2, LoadSceneMode.Additive);
     }
 
     public void CloseMinigame(string gameName, bool isGood)
