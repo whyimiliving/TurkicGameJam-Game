@@ -3,7 +3,7 @@ using UnityEngine.AI;
 
 [RequireComponent(typeof(NavMeshAgent))]
 [RequireComponent(typeof(Animator))]
-public class FollowWNavmesh2D : MonoBehaviour
+public class FollowWNavmesh2D : SortingOrderByY
 {
     [SerializeField] private Transform target;
     [SerializeField] private float distance = 1f;
@@ -51,5 +51,7 @@ public class FollowWNavmesh2D : MonoBehaviour
             animator.SetFloat("MoveY", lastDirection.y);
             animator.SetFloat("Speed", 0);
         }
+
+        SetOrder();
     }
 }

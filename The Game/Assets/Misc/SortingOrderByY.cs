@@ -2,31 +2,18 @@ using UnityEngine;
 
 public class SortingOrderByY : MonoBehaviour
 {
-    public SpriteRenderer spriteRenderer;
-    private Transform playerTransform;
+    [SerializeField] private SpriteRenderer spriteRenderer;
 
-    void Awake()
+    void Start()
     {
-        playerTransform = FindFirstObjectByType<PlayerMovement>().transform;
+        SetOrder();
     }
 
-    void LateUpdate()
-    {
-        DoYour();
-    }
-
-    void DoYour()
+    public void SetOrder()
     {
         if (spriteRenderer != null)
         {
-            if (playerTransform.position.y > transform.position.y)
-            {
-                spriteRenderer.sortingOrder = playerTransform.gameObject.GetComponent<SpriteRenderer>().sortingOrder + 1;
-            }
-            else
-            {
-                spriteRenderer.sortingOrder = playerTransform.gameObject.GetComponent<SpriteRenderer>().sortingOrder - 1;
-            }
+            spriteRenderer.sortingOrder = Mathf.RoundToInt(transform.position.y * 100f) * -1;
         }
     }
 }

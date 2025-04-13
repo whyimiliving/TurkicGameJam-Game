@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class PlayerMovement : MonoBehaviour
+public class PlayerMovement : SortingOrderByY
 {
     public float moveSpeed = 5f;
     private Animator animator;
@@ -47,5 +47,7 @@ public class PlayerMovement : MonoBehaviour
 
         // Hareket ettir
         transform.position += (Vector3)movement * (moveSpeed * Time.deltaTime);
+
+        SetOrder();
     }
 }
