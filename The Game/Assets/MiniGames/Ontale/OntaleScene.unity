@@ -2724,9 +2724,11 @@ MonoBehaviour:
   typingSpeed: 0.05
   strings:
   - "Beni ssss yendin tebrikler. Ger\xE7ekten korkusuzsun."
-  - Ssssss zehrimi tat
+  - "Kar\u015F\u0131ma \xE7\u0131kt\u0131n kork benden"
   - "Bunlardan ka\xE7amayacaks\u0131n"
   - "\u015Eimdi \xF6ld\xFCrd\xFCm seni"
+  - Ssssss zehrimi tat
+  - Korkunu duyuyorum
 --- !u!114 &1787586082
 MonoBehaviour:
   m_ObjectHideFlags: 0

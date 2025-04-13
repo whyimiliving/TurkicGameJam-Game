@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb99b0787190b954a80c2f63b76108b4, type: 3}
+  m_Name: "\xD6l\xFCm"
+  m_EditorClassIdentifier: 
+  itemName: "\xD6l\xFCm"
+  description: Yeni bir son
+  icon: {fileID: 3013439955963711512, guid: d9a0fad7a4b79004390d02611da7602c, type: 3}
+  power: 9

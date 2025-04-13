@@ -23,6 +23,7 @@ public class SnakeMain : MonoBehaviour, IAnimStarter
     IEnumerator StartFight()
     {
         animator.SetTrigger("Talk");
+        StartCoroutine(ShowTextOneByOne(strings[1]));
         yield return new WaitForSeconds(5);
         ChoseRandomAttack();
     }
@@ -45,7 +46,7 @@ public class SnakeMain : MonoBehaviour, IAnimStarter
         }
         else
         {
-            StartCoroutine(ShowTextOneByOne(strings[Random.Range(1, strings.Length)]));
+            StartCoroutine(ShowTextOneByOne(strings[Random.Range(2, strings.Length)]));
             yield return new WaitForSeconds(4);
             ChoseRandomAttack();
         }
@@ -156,8 +157,7 @@ public class SnakeMain : MonoBehaviour, IAnimStarter
     }
     #endregion
 
-
-    #region Chat
+#region Chat
 
     public TextMeshProUGUI chatTmp;
     public float typingSpeed = 0.15f; 
