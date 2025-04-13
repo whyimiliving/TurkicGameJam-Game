@@ -47,18 +47,18 @@ public class MiniGameManager : MonoBehaviour
 
     void Update()
     {
-        //if (Input.GetKeyDown(KeyCode.U))
-        //{
-        //    StartMiniGame(GameNames.OntaleScene);
-        //}
-        //if (Input.GetKeyDown(KeyCode.O))
-        //{
-        //    StartMiniGame(GameNames.TcgScene);
-        //}
-        //if (Input.GetKeyDown(KeyCode.P))
-        //{
-        //    StartMiniGame(GameNames.TcgScene2);
-        //}
+        if (Input.GetKeyDown(KeyCode.U))
+        {
+            StartMiniGame(GameNames.OntaleScene);
+        }
+        if (Input.GetKeyDown(KeyCode.O))
+        {
+            StartMiniGame(GameNames.TcgScene);
+        }
+        if (Input.GetKeyDown(KeyCode.P))
+        {
+            StartMiniGame(GameNames.TcgScene2);
+        }
     }
 
     public void StartMiniGame(string gameName)
