@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      bilgelik_0: 7116799324963625012
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
