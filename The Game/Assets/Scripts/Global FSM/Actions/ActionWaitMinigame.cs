@@ -1,6 +1,6 @@
 ﻿namespace FSM.Decisions
 {
-    public class DecisionWaitMinigame : FSMDecision
+    public class ActionWaitMinigame : FSMDecision
     {
         public override bool Decide(FSMContext context)
         {

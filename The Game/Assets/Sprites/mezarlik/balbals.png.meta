@@ -284,7 +284,14 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      balbals_0: 5547337428907020371
+      balbals_1: 745560640895602366
+      balbals_2: 8158185260024624294
+      balbals_3: -1815273144063535429
+      balbals_4: 3020647783983445170
+      balbals_5: -5009139653500117155
+      balbals_6: -4124998576621434772
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
