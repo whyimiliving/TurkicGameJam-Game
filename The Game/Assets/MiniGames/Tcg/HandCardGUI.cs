@@ -21,7 +21,7 @@ public class HandCardGUI : MonoBehaviour, IAnimStarter
 
     public void UseMe()
     {
-        innerCard.GetComponent<RectTransform>().localPosition += new Vector3(0, 40, 0);
+        innerCard.GetComponent<RectTransform>().Translate(Vector3.up * 40);
         Transform parent = this.gameObject.transform.parent;
         int index = this.gameObject.transform.GetSiblingIndex();
         Hand._hand.RemoveFromDeck(index);

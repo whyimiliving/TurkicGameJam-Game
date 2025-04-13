@@ -406,8 +406,8 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 8648973885470121309}
   - {fileID: 459152558063707034}
+  - {fileID: 8648973885470121309}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -466,7 +466,7 @@ MonoBehaviour:
   powerText: {fileID: 8180801870207404726}
   cardItem: {fileID: 0}
   hitAnimObj: {fileID: 3249918143971958957, guid: 1fa2ee24ddf60a4468eccf9e9902aa6d, type: 3}
-  innerCard: {fileID: 0}
+  innerCard: {fileID: 5928646293240779406}
 --- !u!1 &8175843667646755726
 GameObject:
   m_ObjectHideFlags: 0
