@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      sevgi_0: 7973103806197551606
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      zeka_0: 3385316655907749497
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
