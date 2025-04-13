@@ -12,4 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a5040852b79fa14cafb578cfcfdca50, type: 3}
   m_Name: MiniGamAfterDialog
   m_EditorClassIdentifier: 
-  lines: []
+  lines:
+  - s
+  - aasdsasad
+  - grr

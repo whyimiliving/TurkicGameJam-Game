@@ -12,4 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a5040852b79fa14cafb578cfcfdca50, type: 3}
   m_Name: Snake Dialog
   m_EditorClassIdentifier: 
-  lines: []
+  lines:
+  - "YILAN:\n\xD6lmek i\xE7in mi buradas\u0131n\u0131z?"
+  - "YILAN\nBakal\u0131m ne kadar cesursunuz!"
