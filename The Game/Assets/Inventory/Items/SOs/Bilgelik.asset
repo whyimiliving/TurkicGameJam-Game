@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb99b0787190b954a80c2f63b76108b4, type: 3}
+  m_Name: Bilgelik
+  m_EditorClassIdentifier: 
+  itemName: Bilgelik
+  description: "Bilgeli\u011Fi g\xF6steren bir kart."
+  icon: {fileID: 7116799324963625012, guid: 6385f282076fe054991ad1645296d02a, type: 3}
+  power: 12

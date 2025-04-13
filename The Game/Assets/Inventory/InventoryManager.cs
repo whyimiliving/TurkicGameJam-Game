@@ -84,7 +84,7 @@ public class InventoryManager : MonoBehaviour
         RectTransform rectTransform = newItem.GetComponent<RectTransform>();
         if (rectTransform != null)
         {
-            rectTransform.anchoredPosition = new Vector2((i * 100) + 60, -38);
+            rectTransform.anchoredPosition = new Vector2(((i % 3) * 145) + 60, -38 - ((i / 3) * 135));
         }
         ItemIconGUICode itemGUIIconCode = newItem.GetComponent<ItemIconGUICode>();
         if (itemGUIIconCode != null)
