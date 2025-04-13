@@ -17,5 +17,5 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 0fe3ce43ccb16214d8b5ff4c75874bda, type: 2}
   transitions:
   - decision: {fileID: 11400000, guid: a8e975ab366766945ab0fe28740a759c, type: 2}
-    targetState: Next_Scene_Trigger
+    targetState: PuzzleAfterDialog_State
     requiredResult: 1

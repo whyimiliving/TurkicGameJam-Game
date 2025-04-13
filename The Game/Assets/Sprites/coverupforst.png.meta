@@ -1,0 +1,975 @@
+fileFormatVersion: 2
+guid: 842b853be1421234795d5c23c84970f0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8708216608090619504
+    second: coverupforst_0
+  - first:
+      213: -915017346491798730
+    second: coverupforst_1
+  - first:
+      213: -8515423843504788958
+    second: coverupforst_2
+  - first:
+      213: -1597277294246544399
+    second: coverupforst_3
+  - first:
+      213: 9173574123808983228
+    second: coverupforst_4
+  - first:
+      213: 2876118027415016332
+    second: coverupforst_5
+  - first:
+      213: -8918103032881524216
+    second: coverupforst_6
+  - first:
+      213: -9110146835988940738
+    second: coverupforst_7
+  - first:
+      213: -5854297167175201305
+    second: coverupforst_8
+  - first:
+      213: 7686027269992959797
+    second: coverupforst_9
+  - first:
+      213: 3826946609675003047
+    second: coverupforst_10
+  - first:
+      213: 7688663277868736150
+    second: coverupforst_11
+  - first:
+      213: -4619735106413025296
+    second: coverupforst_12
+  - first:
+      213: -1287078294331521087
+    second: coverupforst_13
+  - first:
+      213: 4690729329327199217
+    second: coverupforst_14
+  - first:
+      213: 6866035949414539091
+    second: coverupforst_15
+  - first:
+      213: -409825362825079992
+    second: coverupforst_16
+  - first:
+      213: 8147258935840891632
+    second: coverupforst_17
+  - first:
+      213: 3307979741086850768
+    second: coverupforst_18
+  - first:
+      213: 1293511160474538342
+    second: coverupforst_19
+  - first:
+      213: -175638129096455583
+    second: coverupforst_20
+  - first:
+      213: 4230085207483775208
+    second: coverupforst_21
+  - first:
+      213: -3933597245280498319
+    second: coverupforst_22
+  - first:
+      213: 3916577770520732626
+    second: coverupforst_23
+  - first:
+      213: 6732221010599506478
+    second: coverupforst_24
+  - first:
+      213: -7206376807279183490
+    second: coverupforst_25
+  - first:
+      213: 5203184639895319282
+    second: coverupforst_26
+  - first:
+      213: -847342202260344940
+    second: coverupforst_27
+  - first:
+      213: 7777021781139338984
+    second: coverupforst_28
+  - first:
+      213: -1251242911125269100
+    second: coverupforst_29
+  - first:
+      213: 1154787634100495548
+    second: coverupforst_30
+  - first:
+      213: -1517878983227315451
+    second: coverupforst_31
+  - first:
+      213: 5566653477980493753
+    second: coverupforst_32
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: coverupforst_0
+      rect:
+        serializedVersion: 2
+        x: 1626
+        y: 1797
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07ef560fddcc9d870800000000000000
+      internalID: 8708216608090619504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coverupforst_1
+      rect:
+        serializedVersion: 2
+        x: 1629
+        y: 1561
+        width: 29
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63b290342943d43f0800000000000000
+      internalID: -915017346491798730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coverupforst_2
+      rect:
+        serializedVersion: 2
+        x: 1629
+        y: 1180
+        width: 157
+        height: 365
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22a6108812323d980800000000000000
+      internalID: -8515423843504788958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coverupforst_3
+      rect:
+        serializedVersion: 2
+        x: 1802
+        y: 1331
+        width: 56
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fb33ac73c455d9e0800000000000000
+      internalID: -1597277294246544399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coverupforst_4
+      rect:
+        serializedVersion: 2
+        x: 1816
+        y: 1313
+        width: 31
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb8895adf051f4f70800000000000000
+      internalID: 9173574123808983228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coverupforst_5
+      rect:
+        serializedVersion: 2
+        x: 1802
+        y: 1171
+        width: 56
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c835b2c8b160ae720800000000000000
+      internalID: 2876118027415016332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coverupforst_6
+      rect:
+        serializedVersion: 2
+        x: 1816
+        y: 1153
+        width: 31
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80253ceaa888c3480800000000000000
+      internalID: -8918103032881524216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coverupforst_7
+      rect:
+        serializedVersion: 2
+        x: 1796
+        y: 1068
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e38fa3568b1429180800000000000000
+      internalID: -9110146835988940738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coverupforst_8
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 290
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ed42fc6ebb51cea0800000000000000
+      internalID: -5854297167175201305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coverupforst_9
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 289
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53f45e964114aaa60800000000000000
+      internalID: 7686027269992959797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coverupforst_10
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 295
+        width: 18
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a4601c5aab0c1530800000000000000
+      internalID: 3826946609675003047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coverupforst_11
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 291
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69ed4f2d38e93ba60800000000000000
+      internalID: 7688663277868736150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coverupforst_12
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 0
+        width: 1777
+        height: 1056
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f7a9d9a56763efb0800000000000000
+      internalID: -4619735106413025296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coverupforst_13
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 278
+        width: 20
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c7014c4c11632ee0800000000000000
+      internalID: -1287078294331521087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coverupforst_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 253
+        width: 7
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f3dd04f871d81140800000000000000
+      internalID: 4690729329327199217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coverupforst_15
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 255
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35f5ae3715f094f50800000000000000
+      internalID: 6866035949414539091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coverupforst_16
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 266
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8439ddcf002005af0800000000000000
+      internalID: -409825362825079992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coverupforst_17
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 252
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f26ceb06d0e01170800000000000000
+      internalID: 8147258935840891632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coverupforst_18
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 255
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0de9baf4c0e48ed20800000000000000
+      internalID: 3307979741086850768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coverupforst_19
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 251
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66196111c8973f110800000000000000
+      internalID: 1293511160474538342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coverupforst_20
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 246
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16a013a5d02009df0800000000000000
+      internalID: -175638129096455583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coverupforst_21
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 246
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e874b1951844ba30800000000000000
+      internalID: 4230085207483775208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coverupforst_22
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 244
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17dc991852e0969c0800000000000000
+      internalID: -3933597245280498319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coverupforst_23
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 130
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d3641b3bba7a5630800000000000000
+      internalID: 3916577770520732626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coverupforst_24
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 129
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e22743e1757ad6d50800000000000000
+      internalID: 6732221010599506478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coverupforst_25
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 135
+        width: 18
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e79b28c897ecdfb90800000000000000
+      internalID: -7206376807279183490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coverupforst_26
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 115
+        width: 39
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f2bab1ccdc653840800000000000000
+      internalID: 5203184639895319282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coverupforst_27
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 118
+        width: 20
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49f2317a1c2ad34f0800000000000000
+      internalID: -847342202260344940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coverupforst_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 39
+        width: 81
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e639430b188deb60800000000000000
+      internalID: 7777021781139338984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coverupforst_29
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 93
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49517a2a331b2aee0800000000000000
+      internalID: -1251242911125269100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coverupforst_30
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 86
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb4e2912c31a60010800000000000000
+      internalID: 1154787634100495548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coverupforst_31
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 91
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50b64b85b196feae0800000000000000
+      internalID: -1517878983227315451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coverupforst_32
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 84
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b758b648d9b04d40800000000000000
+      internalID: 5566653477980493753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      coverupforst_0: 8708216608090619504
+      coverupforst_1: -915017346491798730
+      coverupforst_10: 3826946609675003047
+      coverupforst_11: 7688663277868736150
+      coverupforst_12: -4619735106413025296
+      coverupforst_13: -1287078294331521087
+      coverupforst_14: 4690729329327199217
+      coverupforst_15: 6866035949414539091
+      coverupforst_16: -409825362825079992
+      coverupforst_17: 8147258935840891632
+      coverupforst_18: 3307979741086850768
+      coverupforst_19: 1293511160474538342
+      coverupforst_2: -8515423843504788958
+      coverupforst_20: -175638129096455583
+      coverupforst_21: 4230085207483775208
+      coverupforst_22: -3933597245280498319
+      coverupforst_23: 3916577770520732626
+      coverupforst_24: 6732221010599506478
+      coverupforst_25: -7206376807279183490
+      coverupforst_26: 5203184639895319282
+      coverupforst_27: -847342202260344940
+      coverupforst_28: 7777021781139338984
+      coverupforst_29: -1251242911125269100
+      coverupforst_3: -1597277294246544399
+      coverupforst_30: 1154787634100495548
+      coverupforst_31: -1517878983227315451
+      coverupforst_32: 5566653477980493753
+      coverupforst_4: 9173574123808983228
+      coverupforst_5: 2876118027415016332
+      coverupforst_6: -8918103032881524216
+      coverupforst_7: -9110146835988940738
+      coverupforst_8: -5854297167175201305
+      coverupforst_9: 7686027269992959797
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
