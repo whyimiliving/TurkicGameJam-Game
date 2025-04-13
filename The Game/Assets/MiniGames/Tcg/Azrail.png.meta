@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Azrail_0: 4738587215240821596
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

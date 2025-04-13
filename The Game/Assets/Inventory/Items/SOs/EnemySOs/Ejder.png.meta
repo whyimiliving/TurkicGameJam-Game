@@ -159,7 +159,9 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Ejder_0: 5487563436616061978
+      Ejder_1: 8780165111656467560
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
