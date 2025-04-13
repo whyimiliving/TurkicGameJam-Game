@@ -56,7 +56,14 @@ public class Deck : MonoBehaviour
 
     public void DrawTop(int numberr)
     {
-        StartCoroutine(DrawOneByOne(numberr));
+        if (deckCards.Count <= 0)
+        {
+            MiniGameManager._miniGameManager.CloseMinigame(GameNames.TcgScene, false);
+        }
+        else
+        {
+            StartCoroutine(DrawOneByOne(numberr));
+        }
     }
 
     IEnumerator DrawOneByOne(int numberr)

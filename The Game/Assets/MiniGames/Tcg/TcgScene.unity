@@ -593,9 +593,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   deckCards:
-  - {fileID: 11400000, guid: f39d54f2d56e624448b64575f617ba9e, type: 2}
-  - {fileID: 11400000, guid: edbb6808c31b65540b3ff9081a6ca20f, type: 2}
-  - {fileID: 11400000, guid: f39d54f2d56e624448b64575f617ba9e, type: 2}
+  - {fileID: 11400000, guid: 16c67ddc0e639b34cb779d6e4ba3b784, type: 2}
+  - {fileID: 11400000, guid: 7fde2d112ecd11e4888d1679e4760821, type: 2}
+  - {fileID: 11400000, guid: 33f0c7acfb5cd434dbb12b0b9778a8bf, type: 2}
   EnemyMonster: {fileID: 1007571002711283840, guid: 9ce7586e7f1524c459a9ca0ad0cd3b71, type: 3}
   EnemyMonsterParent: {fileID: 2109574466}
   cardLeft: {fileID: 1145853728}
