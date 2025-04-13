@@ -38,7 +38,7 @@ public class SnakeMain : MonoBehaviour, IAnimStarter
             currentLvl++;
         }
 
-        if (snakeHp.currentHp <= 0)
+        if (snakeHp.currentHp <= 1)
         {
             StartCoroutine(ShowTextOneByOne(strings[0]));
             yield return new WaitForSeconds(7);
