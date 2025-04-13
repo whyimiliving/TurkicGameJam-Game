@@ -9,7 +9,7 @@ public class FSMTriggerRelay : MonoBehaviour
     {
         if (decision != null)
         {
-            decision.TriggerHit(other);
+            decision.TriggerHit(other, this.gameObject); // ✅ Trigger objesini de gönderiyoruz
         }
     }
 }

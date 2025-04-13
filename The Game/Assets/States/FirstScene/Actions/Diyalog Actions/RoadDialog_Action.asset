@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc7c9bd4fec24b698e4d1ccb3e5ec727, type: 3}
+  m_Name: RoadDialog_Action
+  m_EditorClassIdentifier: 
+  lines:
+  - "Nene\u2026 "
+  - 
+  - "Ta\u015Flar arkam\u0131zda kald\u0131 ama sanki h\xE2l\xE2 g\xF6zleri \xFCzerimde
+    gibi\u2026"
+  - "Baz\u0131 g\xF6zler kapanmaz evlat. Sadece g\xF6m\xFCl\xFCr. "
+  - 
+  - "Biz y\xFCr\xFCr\xFCz ama baz\u0131 bak\u0131\u015Flar bizimle kal\u0131r.\u201D"
+  - "Oras\u0131... ileride bir \u015Fey parl\u0131yor. Bir duvar gibi, ama \u0131\u015F\u0131kl\u0131\u2026"
+  - "E\u011Fitimin orada ba\u015Flayacak."
+  - 
+  - "Ama unutma: \u0131\u015F\u0131k her zaman ayd\u0131nlatmaz. "
+  - 
+  - Bazen gizler.
+  - "Oraya yaln\u0131z m\u0131 gidece\u011Fim?"
+  - "Soru yanl\u0131\u015F. \xC7\xFCnk\xFC yol yaln\u0131z gidilmez,"
+  - 
+  - "yaln\u0131z hissedilir. "
+  - 
+  - "Ama ben buraday\u0131m."
+  - 
+  - "G\xF6zlerinle de\u011Fil, kalbinle bak."
+  delayAfterLine: 0

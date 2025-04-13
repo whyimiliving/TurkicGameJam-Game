@@ -11,18 +11,24 @@ namespace FSM.Decisions
         {
             triggered = false;
         }
-        public void TriggerHit(Collider2D other)
+        public void TriggerHit(Collider2D other, GameObject triggerObject)
         {
             if (other.CompareTag(triggerTag))
             {
                 triggered = true;
                 Debug.Log("✅ Trigger tetiklendi!");
+
+                Destroy(triggerObject); 
             }
         }
 
         public override bool Decide(FSMContext context)
         {
-            return triggered;
+           if(triggered)
+           {
+               return true;
+           }
+           return false;
         }
 
         public override void ResetDecision()

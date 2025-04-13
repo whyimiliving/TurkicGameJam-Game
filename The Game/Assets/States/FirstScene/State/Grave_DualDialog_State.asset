@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4084b2ee83b7d9544b91c9e70d54c4ad, type: 3}
+  m_Name: Grave_DualDialog_State
+  m_EditorClassIdentifier: 
+  ID: Grave_DualDialog_State
+  actions:
+  - {fileID: 11400000, guid: a875859ea467ed447acc92eeaa2bb52e, type: 2}
+  transitions:
+  - decision: {fileID: 11400000, guid: 86470f92f809b844595afc2de4a83267, type: 2}
+    targetState: RoadTrigger_State
+    requiredResult: 1
