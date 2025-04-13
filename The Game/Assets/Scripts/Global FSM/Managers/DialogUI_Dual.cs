@@ -6,6 +6,10 @@ using System.Collections;
 public class DialogUI_Dual : MonoBehaviour
 {
     public static DialogUI_Dual Instance;
+    [Header("Typing Loop Sound")]
+    public AudioClip typingLoopClip;
+    public AudioSource typingAudioSource;
+
 
     public GameObject[] panel;
     public TextMeshProUGUI speakerAText;
@@ -72,15 +76,29 @@ public class DialogUI_Dual : MonoBehaviour
         {
             panel[i].SetActive(true);
         }
-        
+
         activeField.text = "";
         otherField.text = "";
         IsTyping = true;
+
+        // 🔊 Ses başlat
+        if (typingAudioSource != null && typingLoopClip != null)
+        {
+            typingAudioSource.clip = typingLoopClip;
+            if (!typingAudioSource.isPlaying)
+                typingAudioSource.Play();
+        }
 
         foreach (char letter in text)
         {
             activeField.text += letter;
             yield return new WaitForSeconds(letterPause);
+        }
+
+        // ⛔️ Ses durdur
+        if (typingAudioSource != null && typingAudioSource.isPlaying)
+        {
+            typingAudioSource.Stop();
         }
 
         IsTyping = false;

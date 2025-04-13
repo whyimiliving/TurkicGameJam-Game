@@ -270,7 +270,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &53223528
 Transform:
   m_ObjectHideFlags: 0
@@ -341,6 +341,7 @@ MonoBehaviour:
   - {fileID: 329111994}
   - {fileID: 2022290927}
   - {fileID: 458449104}
+  buttonPanel: {fileID: 0}
 --- !u!1 &95667612
 GameObject:
   m_ObjectHideFlags: 0
@@ -7691,7 +7692,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a7e52b5b7a354ca3b42a1e0be31e3fa0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  panel: {fileID: 1529776103}
+  typingLoopClip: {fileID: 0}
+  typingAudioSource: {fileID: 0}
+  panel:
+  - {fileID: 0}
   speakerAText: {fileID: 166446689}
   speakerBText: {fileID: 1657545552}
   letterPause: 0.03
@@ -7822,7 +7826,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1929632789
 Transform:
   m_ObjectHideFlags: 0
