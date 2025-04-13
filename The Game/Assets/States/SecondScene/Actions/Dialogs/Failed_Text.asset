@@ -13,4 +13,5 @@ MonoBehaviour:
   m_Name: Failed_Text
   m_EditorClassIdentifier: 
   lines:
-  - aaa
+  - "Torun\n\u015Eimdi kim var nene"
+  - "Nene:\n\u015Eimdi onunla y\xFCzle\u015Fme zaman\u0131"

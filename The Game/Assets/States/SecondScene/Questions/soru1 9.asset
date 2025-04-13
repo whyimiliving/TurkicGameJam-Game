@@ -12,9 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26d5e35ee82f4135a3fe15d25014cc32, type: 3}
   m_Name: soru1 9
   m_EditorClassIdentifier: 
-  question: ssadsdadas
+  question: "Dil s\xF6yler ama kalpten do\u011Far\u0131m.\r\nKimi beni g\xF6\u011Fe
+    savurur,\r\nKimi i\xE7inden f\u0131s\u0131ldar.\r\nCevaps\u0131z da ya\u015Far\u0131m."
   choices:
-  - "dao\u011Fru"
-  - "yanl\u0131s"
-  - "yanl\u0131s"
-  correctAnswerIndex: 0
+  - Dilek
+  - Dua
+  - "S\xF6z"
+  correctAnswerIndex: 1

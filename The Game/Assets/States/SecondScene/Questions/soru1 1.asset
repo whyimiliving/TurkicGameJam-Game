@@ -12,9 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26d5e35ee82f4135a3fe15d25014cc32, type: 3}
   m_Name: soru1 1
   m_EditorClassIdentifier: 
-  question: asasassa
+  question: "Beni hissetti\u011Finde ka\xE7mak istersin.\r\nAma ben olmadan cesur
+    olamazs\u0131n.\r\nKimi beni yutar, kimi benle b\xFCy\xFCr.\r\nKimim ben?"
   choices:
-  - "yanl\u0131s"
-  - "dao\u011Fru"
-  - "yanl\u0131s"
-  correctAnswerIndex: 1
+  - "Endi\u015Fe"
+  - Cesaret
+  - Korku
+  correctAnswerIndex: 2

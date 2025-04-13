@@ -13,5 +13,14 @@ MonoBehaviour:
   m_Name: OwlDialogAction
   m_EditorClassIdentifier: 
   lines:
-  - aaaa
-  - ss
+  - "Torun:\nYol\u2026 yine karanl\u0131k. Ama bu kez korkudan de\u011Fil, bilinmezlikten"
+  - "Nine:\nBilinmez olan her \u015Fey sorudur evlat."
+  - "Nine:\n\u015Eimdi seni bekleyen biri var\u2026"
+  - "Nine\nU\xE7maz, ama en y\xFCksekte oturur. G\xF6zleri geceyi deler."
+  - "Nine:\nO sana cevap vermeyecek. Ama sorular b\u0131rakacak i\xE7inde."
+  - "Nine:\n\xC7\xFCnk\xFC bazen b\xFCy\xFCmek, cevaplar\u0131 bilmek de\u011Fil\u2026
+    sorularla ya\u015Famay\u0131 \xF6\u011Frenmektir.\u201D"
+  - "Bayku\u015F:\nBeni ge\xE7emezsin. Kendini ge\xE7medik\xE7e."
+  - ...
+  - "Bayku\u015F:\nSorular\u0131m var. Cevaplar\u0131n yoksa, korkma.\r\nYol soruyla
+    y\xFCr\xFCn\xFCr."
