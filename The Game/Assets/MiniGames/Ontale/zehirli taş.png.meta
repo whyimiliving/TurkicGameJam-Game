@@ -159,7 +159,9 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      "zehirli ta\u015F_0": -2091514109163063337
+      "zehirli ta\u015F_1": -8258844635052889754
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
