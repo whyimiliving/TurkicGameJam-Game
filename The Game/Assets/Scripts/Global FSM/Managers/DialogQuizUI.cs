@@ -16,9 +16,11 @@ public class DialogQuizUI : MonoBehaviour
     private void Awake()
     {
         if (Instance == null) Instance = this;
-
+        panel.SetActive(false);
         for (int i = 0; i < choiceButtons.Length; i++)
         {
+    
+          
             int index = i;
             choiceButtons[i].onClick.AddListener(() => {
                 panel.SetActive(false);
