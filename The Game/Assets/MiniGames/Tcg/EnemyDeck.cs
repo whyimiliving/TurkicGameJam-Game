@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 
 public class EnemyDeck : MonoBehaviour
@@ -7,10 +8,16 @@ public class EnemyDeck : MonoBehaviour
     public List<CardItem> deckCards;
     public GameObject EnemyMonster;
     public Transform EnemyMonsterParent;
+    public TextMeshProUGUI cardLeft;
 
     void Start()
     {
+        UpdateGui();
         StartCoroutine(StartFight());
+    }
+    void UpdateGui()
+    {
+        cardLeft.text = deckCards.Count.ToString();
     }
 
     IEnumerator StartFight()
@@ -20,6 +27,7 @@ public class EnemyDeck : MonoBehaviour
         //yield return new WaitUntil(() => conditionMet);
         Debug.Log("start");
         Summon();
+        UpdateGui();
     }
 
     public void NextEnemyCard()

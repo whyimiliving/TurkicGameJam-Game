@@ -9,6 +9,7 @@ public class HandCardGUI : MonoBehaviour, IAnimStarter
     public TextMeshProUGUI powerText;
     public CardItem cardItem;
     public GameObject hitAnimObj;
+    public GameObject innerCard;
     private bool conditionMet;
 
     public void SetPrefab(CardItem _cardItem)
@@ -20,6 +21,7 @@ public class HandCardGUI : MonoBehaviour, IAnimStarter
 
     public void UseMe()
     {
+        innerCard.GetComponent<RectTransform>().localPosition += new Vector3(0, 40, 0);
         Transform parent = this.gameObject.transform.parent;
         int index = this.gameObject.transform.GetSiblingIndex();
         Hand._hand.RemoveFromDeck(index);
