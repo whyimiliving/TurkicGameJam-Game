@@ -2,6 +2,7 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using System.Linq;
+using System.Collections;
 
 public static class GameNames
 {
@@ -20,8 +21,10 @@ public class MiniGameManager : MonoBehaviour
 {
     public static MiniGameManager _miniGameManager;
     public GameObject[] onlyInMainGame;
+    public GameObject backpackEvents;
     public bool isIngame; 
     [SerializeField] public ItemHolderPair[] gameCards;
+    public string loadedSceneName;
     
 
     void Awake()
@@ -34,6 +37,11 @@ public class MiniGameManager : MonoBehaviour
         {
             Destroy(this);
         }
+    }
+
+    void Start()
+    {
+        backpackEvents.SetActive(false);
     }
 
     void Update()
@@ -52,6 +60,7 @@ public class MiniGameManager : MonoBehaviour
     {
         isIngame = true;
         RenderGameobjects();
+        loadedSceneName = gameName;
         if (gameName == GameNames.OntaleScene)
         {
             StopMainGame();
@@ -90,18 +99,30 @@ public class MiniGameManager : MonoBehaviour
 
     public void CloseMinigame(string gameName, bool isGood)
     {
-        SceneManager.UnloadSceneAsync(gameName);
         if (isGood)
         {
             CheckForItems(GameNames.OntaleScene);
         }
         else
         {
-            InventoryManager._inventoryManager.RemoveLestValueable();
+            StartCoroutine(RestartScene(gameName));
+            return;
         }
 
+        SceneManager.UnloadSceneAsync(gameName);
         isIngame = false;
         RenderGameobjects();
+    }
+
+    IEnumerator RestartScene(string gameName)
+    {
+        backpackEvents.SetActive(true);
+        backpackEvents.GetComponent<BackpackEvents>().TriggerShake();
+        InventoryManager._inventoryManager.RemoveLestValueable();
+        yield return new WaitForSeconds(4);
+        backpackEvents.SetActive(false);
+        SceneManager.UnloadSceneAsync(gameName);
+        SceneManager.LoadScene(gameName, LoadSceneMode.Additive);
     }
 
     private void RenderGameobjects()

@@ -44,3 +44,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 288da9b4a67f2ef41aa9672d7e7cc892, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  onlyInMainGame:
+  - {fileID: 0}
+  backpackEvents: {fileID: 0}
+  isIngame: 0
+  gameCards:
+  - Name: OntaleScene
+    myItems:
+    - itemSo: {fileID: 11400000, guid: 8e33f3a93779f3746a08fe9c33d8e455, type: 2}
+      amount: 2
+    - itemSo: {fileID: 11400000, guid: 582270c69c685004991c35cdaf60c2d9, type: 2}
+      amount: 5

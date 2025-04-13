@@ -44,6 +44,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 34023920d9f6dec4488ba765395949b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Cards: []
+  Cards:
+  - itemSo: {fileID: 11400000, guid: c2cafcb0ed0403a4682f30f15e171bcb, type: 2}
+    amount: 5
+  - itemSo: {fileID: 11400000, guid: 092b598ce9d3720448522f0236ad44a6, type: 2}
+    amount: 1
+  - itemSo: {fileID: 11400000, guid: fd0251ea750150443bd3a5c5b9079d3a, type: 2}
+    amount: 2
+  - itemSo: {fileID: 11400000, guid: 712fb3c131a3eb047a1272fa08ed9f23, type: 2}
+    amount: 4
+  - itemSo: {fileID: 11400000, guid: b4249169b162b0a469ecf136ee7d451e, type: 2}
+    amount: 4
   inventoryParent: {fileID: 0}
   itemGuiPrefab: {fileID: 1127074432885452895, guid: 936499d432be86e4883620df3a7a9061, type: 3}
