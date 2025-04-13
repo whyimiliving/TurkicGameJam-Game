@@ -16,3 +16,4 @@ MonoBehaviour:
   description: "Bilgeli\u011Fi g\xF6steren bir kart."
   icon: {fileID: 7116799324963625012, guid: 6385f282076fe054991ad1645296d02a, type: 3}
   power: 12
+  cardStatus: 1

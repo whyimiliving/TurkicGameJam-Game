@@ -16,3 +16,4 @@ MonoBehaviour:
   description: Dum tutu dummm..
   icon: {fileID: 972538071361546188, guid: 13fba6fba41478949ac07ba289f4a74b, type: 3}
   power: 6
+  cardStatus: 2

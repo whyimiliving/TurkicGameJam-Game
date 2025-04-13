@@ -16,3 +16,4 @@ MonoBehaviour:
   description: Olmadan olmaz
   icon: {fileID: 7638101226011065486, guid: b1c2035201103f54ba39d10a6d8a41c2, type: 3}
   power: 11
+  cardStatus: 1

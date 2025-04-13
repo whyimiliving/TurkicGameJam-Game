@@ -11,6 +11,7 @@ public class EnemyMonster : MonoBehaviour
     public CardItem cardItem;
     public RawImage rawImage;
     public float Hp;
+    public GameObject[] tkm;
 
     public void SetMe(CardItem _cardItem, EnemyDeck _enemyDeck)
     {
@@ -20,11 +21,73 @@ public class EnemyMonster : MonoBehaviour
         cardName.text = cardItem.itemName;
         Hp = cardItem.power;
         SetHpBar();
+
+        foreach (var item in tkm)
+        {
+            item.SetActive(false);
+        }
+        switch (_cardItem.cardStatus)
+        {
+            case CardStatus.Tas:
+                tkm[0].SetActive(true);
+                break;
+            case CardStatus.Kagit:
+                tkm[1].SetActive(true);
+                break;
+            case CardStatus.Makas:
+                tkm[2].SetActive(true);
+                break;
+        }
     }
 
-    public void TakeDmg(float dmg)
+    public void TakeDmg(float dmg, CardStatus cardStatus)
     {
-        Hp -= dmg;
+        if (cardItem.cardStatus == CardStatus.Makas)
+        {
+            if (cardStatus == CardStatus.Makas)
+            {
+                Hp -= dmg;
+            }
+            if (cardStatus == CardStatus.Tas)
+            {
+                Hp -= dmg * 1.5f;
+            }
+            if (cardStatus == CardStatus.Kagit)
+            {
+                Hp -= dmg * 0.75f;
+            }
+        }
+        if (cardItem.cardStatus == CardStatus.Kagit)
+        {
+            if (cardStatus == CardStatus.Kagit)
+            {
+                Hp -= dmg;
+            }
+            if (cardStatus == CardStatus.Makas)
+            {
+                Hp -= dmg * 1.5f;
+            }
+            if (cardStatus == CardStatus.Tas)
+            {
+                Hp -= dmg * 0.75f;
+            }
+        }
+        if (cardItem.cardStatus == CardStatus.Tas)
+        {
+            if (cardStatus == CardStatus.Tas)
+            {
+                Hp -= dmg;
+            }
+            if (cardStatus == CardStatus.Kagit)
+            {
+                Hp -= dmg * 1.5f;
+            }
+            if (cardStatus == CardStatus.Makas)
+            {
+                Hp -= dmg * 0.75f;
+            }
+        }
+
         if (Hp <= 0)
         {
             Die();

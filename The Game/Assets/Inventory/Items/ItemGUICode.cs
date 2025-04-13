@@ -12,6 +12,7 @@ public class ItemGUICode : MonoBehaviour
     public TextMeshProUGUI itemPower;
     public TextMeshProUGUI amount;
     public RawImage rawImage;
+    public GameObject[] tkm;
 
     private void Awake()
     {
@@ -34,6 +35,23 @@ public class ItemGUICode : MonoBehaviour
         itemPower.text = collectableItem.itemSo.power.ToString();
         amount.text = collectableItem.amount.ToString();
         rawImage.texture = collectableItem.itemSo.icon.texture;
+
+        foreach (var item in tkm)
+        {
+            item.SetActive(false);
+        }
+        switch (collectableItem.itemSo.cardStatus)
+        {
+            case CardStatus.Tas:
+                tkm[0].SetActive(true);
+                break;
+            case CardStatus.Kagit:
+                tkm[1].SetActive(true);
+                break;
+            case CardStatus.Makas:
+                tkm[2].SetActive(true);
+                break;
+        }
 
         detailedItem.SetActive(true);
     }

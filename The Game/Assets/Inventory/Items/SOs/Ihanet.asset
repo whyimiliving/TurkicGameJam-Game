@@ -16,3 +16,4 @@ MonoBehaviour:
   description: "\u0130hanetin k\xF6t\xFCl\xFC\u011F\xFCn\xFC simgeler"
   icon: {fileID: -1396169753627789712, guid: 16360222b36ad3442953a36775970458, type: 3}
   power: 5
+  cardStatus: 2

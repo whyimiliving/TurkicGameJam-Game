@@ -16,3 +16,4 @@ MonoBehaviour:
   description: DD
   icon: {fileID: -4554886169139825258, guid: 77bab7c74a3eb3a41b23bafa9016bcea, type: 3}
   power: 200
+  cardStatus: 2

@@ -7,4 +7,5 @@ public class CardItem : ScriptableObject
     public string description;
     public Sprite icon;
     public int power;
+    public CardStatus cardStatus;
 }

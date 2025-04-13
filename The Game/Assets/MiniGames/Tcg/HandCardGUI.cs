@@ -12,12 +12,30 @@ public class HandCardGUI : MonoBehaviour, IAnimStarter
     public GameObject innerCard;
     private bool conditionMet;
     private bool usedCard;
+    public GameObject[] tkm;
 
     public void SetPrefab(CardItem _cardItem)
     {
         cardItem = _cardItem;
         rawImage.texture = _cardItem.icon.texture;
         powerText.text = cardItem.power.ToString();
+
+        foreach (var item in tkm)
+        {
+            item.SetActive(false);
+        }
+        switch (_cardItem.cardStatus)
+        {
+            case CardStatus.Tas:
+                tkm[0].SetActive(true);
+                break;
+            case CardStatus.Kagit:
+                tkm[1].SetActive(true);
+                break;
+            case CardStatus.Makas:
+                tkm[2].SetActive(true);
+                break;
+        }
     }
 
     public void UseMe()
@@ -47,7 +65,7 @@ public class HandCardGUI : MonoBehaviour, IAnimStarter
         conditionMet = false;
 
         EnemyMonster[] allEnemyMonsters = FindObjectsOfType<EnemyMonster>();
-        allEnemyMonsters[0].TakeDmg(cardItem.power);
+        allEnemyMonsters[0].TakeDmg(cardItem.power, cardItem.cardStatus);
         allEnemyMonsters[0].TriggerShake();
         Destroy(a);
         Hand._hand.isAnyUsing = false;

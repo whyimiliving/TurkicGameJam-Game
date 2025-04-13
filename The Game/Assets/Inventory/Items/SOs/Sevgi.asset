@@ -16,3 +16,4 @@ MonoBehaviour:
   description: "En \xFCst\xFCn kart"
   icon: {fileID: 7973103806197551606, guid: f8f06eabd73bbc045806ec3a1ed21982, type: 3}
   power: 30
+  cardStatus: 2

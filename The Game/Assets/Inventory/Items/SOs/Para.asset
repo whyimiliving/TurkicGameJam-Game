@@ -16,3 +16,4 @@ MonoBehaviour:
   description: "\u0130nsanl\u0131\u011F\u0131n en \xF6nemli icad\u0131"
   icon: {fileID: -308007156058307332, guid: 799efba6d74a1bd4ab0eb66915761e70, type: 3}
   power: 3
+  cardStatus: 1

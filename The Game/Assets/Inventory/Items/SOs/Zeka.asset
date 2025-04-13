@@ -16,3 +16,4 @@ MonoBehaviour:
   description: "Her \u015Feyin temeli"
   icon: {fileID: 3385316655907749497, guid: 1b01e2f606543064c9680d166dcbdb14, type: 3}
   power: 17
+  cardStatus: 1
