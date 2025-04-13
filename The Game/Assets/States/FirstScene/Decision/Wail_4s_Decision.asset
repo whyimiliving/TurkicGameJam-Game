@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b3b3ece478de43da91f45ff43b550ce5, type: 3}
   m_Name: Wail_4s_Decision
   m_EditorClassIdentifier: 
-  waitTime: 4
+  waitTime: 2

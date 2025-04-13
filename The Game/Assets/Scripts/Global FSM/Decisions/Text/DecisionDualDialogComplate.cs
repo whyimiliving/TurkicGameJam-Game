@@ -11,8 +11,10 @@ namespace FSM.Decisions
 
         public override bool Decide(FSMContext context)
         {
-            if (DialogUI_Dual.Instance == null) return false;
+            if (DialogUI_Dual.Instance == null || PlayerMovement.Instance == null) return false;
 
+            
+            
             if (DialogUI_Dual.Instance.IsTyping)
             {
                 delayTimer = 0f;
@@ -34,6 +36,7 @@ namespace FSM.Decisions
                 {
                     DialogUI_Dual.Instance.Hide();
                     countdownStarted = false;
+                    PlayerMovement.Instance.canMove = true;
                     return true;
                 }
             }

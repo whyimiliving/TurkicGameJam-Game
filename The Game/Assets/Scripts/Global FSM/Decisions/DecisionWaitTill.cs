@@ -12,9 +12,10 @@ namespace FSM.Decisions
 
         public override bool Decide(FSMContext context)
         {
-            // İlk kez çalıştırılıyorsa zamanı al
+            PlayerMovement.Instance.canMove = false;
             if (!initialized)
             {
+         
                 startTime = Time.time;
                 initialized = true;
             }
