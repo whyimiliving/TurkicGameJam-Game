@@ -12,9 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26d5e35ee82f4135a3fe15d25014cc32, type: 3}
   m_Name: soru1 6
   m_EditorClassIdentifier: 
-  question: sadsadasdsad
+  question: "Sesin bitti\u011Fi yerde ba\u015Flar\u0131m.\r\nNe ba\u011F\u0131r\u0131r\u0131m,
+    ne susar\u0131m;\r\nAma en \xE7ok ben anlat\u0131r\u0131m"
   choices:
-  - "dao\u011Fru"
-  - "yanl\u0131s"
-  - "yanl\u0131s"
+  - Sessizlik
+  - "F\u0131s\u0131lt\u0131"
+  - "Unutkanl\u0131k"
   correctAnswerIndex: 0

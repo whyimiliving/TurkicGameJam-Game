@@ -12,9 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26d5e35ee82f4135a3fe15d25014cc32, type: 3}
   m_Name: soru1 4
   m_EditorClassIdentifier: 
-  question: ghjhkjkjhjhk
+  question: "Ben sonum zannedilirim.\r\nOysa bitti\u011Fimde ba\u015Fka bir \u015Fey
+    ba\u015Flar.\r\nKimi beni korkuyla anar, kimi duala.\r\nBen ne karanl\u0131\u011F\u0131m
+    ne \u0131\u015F\u0131\u011F\u0131m.\r\nBen... s\u0131n\u0131r\u0131m."
   choices:
-  - "yanl\u0131s"
-  - "dao\u011Fru"
-  - "yanl\u0131s"
-  correctAnswerIndex: 1
+  - Sonsuzluk
+  - Uyku
+  - "\xD6l\xFCm"
+  correctAnswerIndex: 2

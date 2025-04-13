@@ -12,9 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26d5e35ee82f4135a3fe15d25014cc32, type: 3}
   m_Name: soru1 8
   m_EditorClassIdentifier: 
-  question: ghjhkjkjhjhk
+  question: "Beni isteyen yanar,\r\nBenden ka\xE7an \xFC\u015F\xFCr.\r\nHem yok ederim,\r\nHem
+    do\u011Fururum."
   choices:
-  - "yanl\u0131s"
-  - "dao\u011Fru"
-  - "yanl\u0131s"
-  correctAnswerIndex: 1
+  - "Ate\u015F"
+  - "G\xFCne\u015F"
+  - "\xD6fke"
+  correctAnswerIndex: 0

@@ -12,9 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26d5e35ee82f4135a3fe15d25014cc32, type: 3}
   m_Name: soru1 7
   m_EditorClassIdentifier: 
-  question: sdasdasdasda
+  question: "Kanat istemem ama hep giderim.\r\nNe zaman tutar beni, ne toprak.\r\nBilinmeyene
+    s\xFCr\xFCklerim,\r\nGeride \xF6zlem b\u0131rak\u0131r\u0131m"
   choices:
-  - "yanl\u0131s"
-  - "yanl\u0131s"
-  - "dao\u011Fru"
-  correctAnswerIndex: 2
+  - "R\xFCzgar"
+  - "G\xF6\xE7"
+  - "Yaln\u0131zl\u0131k"
+  correctAnswerIndex: 1

@@ -13,6 +13,10 @@ MonoBehaviour:
   m_Name: MiniGamAfterDialog
   m_EditorClassIdentifier: 
   lines:
-  - s
-  - aasdsasad
-  - grr
+  - "Y\u0131lan:\n\u201CY\xFCr\xFCmeye haz\u0131r de\u011Fildin...\n"
+  - "ama en az\u0131ndan korkunu tan\u0131d\u0131n. "
+  - "Ge\xE7ebilirsinisss\u201D"
+  - "Torun:\n\xC7ok yak\u0131nd\u0131 nene\u2026 Sanki \xF6l\xFCm g\xF6lgesi \xFCzerimdeydi\u2026"
+  - "Nine :\n\u201CD\xFC\u015Fmek\u2026 bazen yolu daha derinden \xF6\u011Fretir
+    evlat.\n\u015Eimdi kalk. \xC7\xFCnk\xFC s\u0131nav bitmedi.\u201D"
+  - "\u015Eimdi kalk. \xC7\xFCnk\xFC s\u0131nav bitmedi."

@@ -17,5 +17,5 @@ MonoBehaviour:
   - {fileID: 11400000, guid: be2b38ea5f20c954c963a9b7e418047f, type: 2}
   transitions:
   - decision: {fileID: 11400000, guid: fe5bbc86649464843b9aca4360b1be81, type: 2}
-    targetState: Quiz_State
+    targetState: QuizAfterDialog_State
     requiredResult: 1
