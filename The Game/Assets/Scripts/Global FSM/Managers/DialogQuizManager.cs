@@ -26,6 +26,7 @@ public class DialogQuizManager : MonoBehaviour
 
     public void StartQuiz()
     {
+        DialogQuizUI.Instance.panel.SetActive(true);
         currentQuiz.Clear();
         currentIndex = 0;
         correctCount = 0;
