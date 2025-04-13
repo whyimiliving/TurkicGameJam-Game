@@ -15,4 +15,4 @@ MonoBehaviour:
   itemName: Deli Kurt
   description: DD
   icon: {fileID: 201765784589456735, guid: 1dfbdec91a9968e44a5ac19569779844, type: 3}
-  power: 35
+  power: 30

@@ -56,7 +56,7 @@ public class Deck : MonoBehaviour
 
     public void DrawTop(int numberr)
     {
-        if (deckCards.Count <= 0)
+        if (deckCards.Count <= 0 && Hand._hand.cardsHand.Count <= 0)
         {
             MiniGameManager._miniGameManager.CloseMinigame(GameNames.TcgScene, false);
         }

@@ -8,6 +8,7 @@ public class Hand : MonoBehaviour
     public List<CardItem> cardsHand;
     public Transform handParent;
     public GameObject handCardGUIPrefab;
+    public bool isAnyUsing;
 
     private void Awake()
     {

@@ -38,15 +38,14 @@ public class EnemyDeck : MonoBehaviour
 
     IEnumerator SayRandom()
     {
+        StartCoroutine(ShowTextOneByOne(strings[Random.Range(0, strings.Length)]));
         if (deckCards.Count <= 0)
         {
-            Debug.Log("kaybettim gg");
             yield return new WaitForSeconds(5);
             MiniGameManager._miniGameManager.CloseMinigame(GameNames.TcgScene, true);
         }
         else
         {
-            Debug.Log("Başka Bişiler Söyle");
             yield return new WaitForSeconds(5);
             Summon();
         }
@@ -57,10 +56,27 @@ public class EnemyDeck : MonoBehaviour
         var monster = Instantiate(EnemyMonster, EnemyMonsterParent);
         monster.GetComponent<EnemyMonster>().SetMe(deckCards[0], this);
         deckCards.RemoveAt(0);
+        UpdateGui();
     }
 
     public void RemoveFromDeck(int index)
     {
         deckCards.RemoveAt(index);
     }
+
+#region Chat
+    public TextMeshProUGUI chatTmp;
+    public float typingSpeed = 0.15f;
+    public string[] strings;
+
+    IEnumerator ShowTextOneByOne(string fullText)
+    {
+        chatTmp.text = "";
+        foreach (char c in fullText)
+        {
+            chatTmp.text += c;
+            yield return new WaitForSeconds(typingSpeed);
+        }
+    }
+#endregion
 }

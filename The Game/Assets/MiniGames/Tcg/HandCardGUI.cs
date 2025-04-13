@@ -11,6 +11,7 @@ public class HandCardGUI : MonoBehaviour, IAnimStarter
     public GameObject hitAnimObj;
     public GameObject innerCard;
     private bool conditionMet;
+    private bool usedCard;
 
     public void SetPrefab(CardItem _cardItem)
     {
@@ -21,6 +22,13 @@ public class HandCardGUI : MonoBehaviour, IAnimStarter
 
     public void UseMe()
     {
+        EnemyMonster[] allEnemyMonsters = FindObjectsOfType<EnemyMonster>();
+        if (usedCard || Hand._hand.isAnyUsing || allEnemyMonsters.Length <= 0)
+        {
+            return;
+        }
+        usedCard = true;
+        Hand._hand.isAnyUsing = true;
         innerCard.GetComponent<RectTransform>().Translate(Vector3.up * 40);
         Transform parent = this.gameObject.transform.parent;
         int index = this.gameObject.transform.GetSiblingIndex();
@@ -42,6 +50,7 @@ public class HandCardGUI : MonoBehaviour, IAnimStarter
         allEnemyMonsters[0].TakeDmg(cardItem.power);
         allEnemyMonsters[0].TriggerShake();
         Destroy(a);
+        Hand._hand.isAnyUsing = false;
         Destroy(this.gameObject);
     }
 
