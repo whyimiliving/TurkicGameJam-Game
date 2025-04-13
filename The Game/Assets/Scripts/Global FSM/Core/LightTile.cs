@@ -20,6 +20,8 @@ public class LightTile : MonoBehaviour
     private void OnEnable()
     {
         TurnOff();
+        
+       
     }
 
     public void TurnOff()

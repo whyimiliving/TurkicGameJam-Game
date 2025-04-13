@@ -1,4 +1,6 @@
-﻿using UnityEngine;
+﻿using System;
+using Unity.VisualScripting;
+using UnityEngine;
 using UnityEngine.UIElements;
 
 namespace FSM.Actions
@@ -8,6 +10,10 @@ namespace FSM.Actions
     {
         private bool started = false;
 
+        private void OnEnable()
+        {
+            started = false;
+        }
 
         public override void Act(FSMContext context)
         {
