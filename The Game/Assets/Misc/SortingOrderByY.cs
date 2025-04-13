@@ -1,34 +1,32 @@
 using UnityEngine;
 
-// From GPT with love
-[RequireComponent(typeof(SpriteRenderer))]
 public class SortingOrderByY : MonoBehaviour
 {
-    private SpriteRenderer spriteRenderer;
-    private int lastOrder = int.MinValue;
-
-    public float minY = -5f;
-    public float maxY = 5f;
-
-    private const int minOrder = -100;
-    private const int maxOrder = 100;
+    public SpriteRenderer spriteRenderer;
+    private Transform playerTransform;
 
     void Awake()
     {
-        spriteRenderer = GetComponent<SpriteRenderer>();
+        playerTransform = FindFirstObjectByType<PlayerMovement>().transform;
     }
 
     void LateUpdate()
     {
-        float y = transform.position.y;
+        DoYour();
+    }
 
-        float t = Mathf.InverseLerp(maxY, minY, y);
-        int newOrder = Mathf.RoundToInt(Mathf.Lerp(minOrder, maxOrder, t));
-
-        if (newOrder != lastOrder)
+    void DoYour()
+    {
+        if (spriteRenderer != null)
         {
-            spriteRenderer.sortingOrder = newOrder;
-            lastOrder = newOrder;
+            if (playerTransform.position.y > transform.position.y)
+            {
+                spriteRenderer.sortingOrder = playerTransform.gameObject.GetComponent<SpriteRenderer>().sortingOrder + 1;
+            }
+            else
+            {
+                spriteRenderer.sortingOrder = playerTransform.gameObject.GetComponent<SpriteRenderer>().sortingOrder - 1;
+            }
         }
     }
 }
