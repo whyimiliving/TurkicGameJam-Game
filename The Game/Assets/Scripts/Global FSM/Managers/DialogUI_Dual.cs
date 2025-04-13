@@ -73,7 +73,7 @@ public class DialogUI_Dual : MonoBehaviour
     private IEnumerator TypeLine(TextMeshProUGUI activeField, string text, TextMeshProUGUI otherField)
     {
         
-        PlayerMovement.Instance.canMove = false;
+   
         
         for (int i = 0; i < panel.Length; i++)
         {
@@ -109,7 +109,7 @@ public class DialogUI_Dual : MonoBehaviour
 
     public void Hide()
     {
-        PlayerMovement.Instance.canMove = true;
+        
         speakerAText.text = "";
         speakerBText.text = "";
         for (int i = 0; i < panel.Length; i++)
