@@ -23,4 +23,4 @@ MonoBehaviour:
   - "kimi kap\u0131 yanmadan aralanmaz."
   - 
   - "I\u015F\u0131\u011F\u0131 yak ki, g\xF6lge yolunu kaybetsin."
-  delayAfterLine: 0
+  delayAfterLine: 1.2
