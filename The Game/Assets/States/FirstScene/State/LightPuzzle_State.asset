@@ -10,12 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4084b2ee83b7d9544b91c9e70d54c4ad, type: 3}
-  m_Name: RoadDialog_State
+  m_Name: LightPuzzle_State
   m_EditorClassIdentifier: 
-  ID: RoadDialog_State
+  ID: LightPuzzle_State
   actions:
-  - {fileID: 11400000, guid: ebe61cd5d42ffb145b42696979c27dbe, type: 2}
-  transitions:
-  - decision: {fileID: 11400000, guid: 86470f92f809b844595afc2de4a83267, type: 2}
-    targetState: PuzzleDialogTrigger_State
-    requiredResult: 1
+  - {fileID: 11400000, guid: 0fe3ce43ccb16214d8b5ff4c75874bda, type: 2}
+  transitions: []

@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc7c9bd4fec24b698e4d1ccb3e5ec727, type: 3}
+  m_Name: PuzzleDialog_Action
+  m_EditorClassIdentifier: 
+  lines:
+  - "ene\u2026 Bu ta\u015Flarda bir \u015Feyler yaz\u0131yor ama... okuyam\u0131yorum"
+  - "G\xF6kt\xFCrk\xE7e evlat\u2026 Atalar\u0131n izidir bu. \n"
+  - 
+  - "Her harfi, bir s\u0131nav gibi kaz\u0131nm\u0131\u015F zamana"
+  - "Ne diyor peki? Anlam\u0131 ne?"
+  - "Kimi ta\u015F a\xE7\u0131lmaz anahtarla,"
+  - 
+  - "kimi kap\u0131 yanmadan aralanmaz."
+  - 
+  - 
+  delayAfterLine: 0

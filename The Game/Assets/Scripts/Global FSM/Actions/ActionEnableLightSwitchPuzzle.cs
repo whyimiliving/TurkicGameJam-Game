@@ -1,11 +1,13 @@
 ﻿using UnityEngine;
+using UnityEngine.UIElements;
 
 namespace FSM.Actions
 {
     [CreateAssetMenu(menuName = "FSM/Actions/Enable Light Switch Puzzle")]
-    public class FSMAction_EnableLightSwitchPuzzle : FSMAction
+    public class ActionEnableLightSwitchPuzzle : FSMAction
     {
         private bool started = false;
+
 
         public override void Act(FSMContext context)
         {

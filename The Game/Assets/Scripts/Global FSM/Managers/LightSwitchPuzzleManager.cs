@@ -6,8 +6,8 @@ public class LightSwitchPuzzleManager : MonoBehaviour
     public static LightSwitchPuzzleManager Instance;
 
     public List<LightTile> allLights;
-   
 
+    public CanvasGroup buttonPanel;
     private List<string> pressedButtonOrder = new();
     private int currentIndex = 0;
     private bool puzzleSolved = false;
@@ -29,8 +29,10 @@ public class LightSwitchPuzzleManager : MonoBehaviour
             if (AreAllLightsOn())
             {
                 puzzleSolved = true;
+                buttonPanel.alpha = 0;
                 Debug.Log("🎉 Puzzle Solved!");
                 // FSM geçişi buradan tetiklenebilir
+                
             }
         }
 
@@ -47,6 +49,9 @@ public class LightSwitchPuzzleManager : MonoBehaviour
 
     public void ResetPuzzle()
     {
+
+        buttonPanel.alpha = 1;
+        
         Debug.Log("❌ Yanlış sıra! Puzzle resetleniyor...");
 
         foreach (var light in allLights)
