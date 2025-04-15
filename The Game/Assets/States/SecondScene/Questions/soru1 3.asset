@@ -12,9 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26d5e35ee82f4135a3fe15d25014cc32, type: 3}
   m_Name: soru1 3
   m_EditorClassIdentifier: 
-  question: sdasdasdasda
+  question: "Yan\u0131ndayken fark etmezsin.\r\nGitti\u011Fimde eksikli\u011Fimle
+    konu\u015Fursun.\r\nSessizim ama d\xFC\u015Ferken ilk ben tutar\u0131m."
   choices:
-  - "yanl\u0131s"
-  - "yanl\u0131s"
-  - "dao\u011Fru"
-  correctAnswerIndex: 2
+  - Sadakat
+  - Merhamet
+  - Sessizlik
+  correctAnswerIndex: 1

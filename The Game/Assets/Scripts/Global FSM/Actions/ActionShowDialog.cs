@@ -10,7 +10,7 @@ namespace FSM.Actions
         
         private int index = -1;
         public static bool DialogFinished = false;
-
+        public string col;
 
         private void OnEnable()
         {
@@ -43,8 +43,12 @@ namespace FSM.Actions
                 if (index >= lines.Length)
                 {
                     DialogFinished = true;
+                    GameObject aaa = GameObject.Find(col);
+                    Destroy(aaa);
                 }
             }
         }
+
+
     }
 }

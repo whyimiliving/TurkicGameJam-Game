@@ -15,6 +15,6 @@ MonoBehaviour:
   ID: RoadDialog_State
   actions: []
   transitions:
-  - decision: {fileID: 11400000, guid: fe5bbc86649464843b9aca4360b1be81, type: 2}
-    targetState: Quiz_State
+  - decision: {fileID: 11400000, guid: 03f024bd8ca18534591be2ac00887ead, type: 2}
+    targetState: RoadDialog_State
     requiredResult: 1

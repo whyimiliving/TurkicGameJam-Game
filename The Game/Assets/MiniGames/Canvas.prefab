@@ -399,10 +399,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 8270032388996758290}
     m_Modifications:
-    - target: {fileID: 284474640471991921, guid: 7cf8e4190ac4fa54aa18b1f82806ddf8, type: 3}
-      propertyPath: m_Texture
-      value: 
-      objectReference: {fileID: 2800000, guid: 64f71ec1ae9278e498f328db7efe62d6, type: 3}
     - target: {fileID: 1375851318094381247, guid: 7cf8e4190ac4fa54aa18b1f82806ddf8, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -486,10 +482,6 @@ PrefabInstance:
     - target: {fileID: 8574860873722781867, guid: 7cf8e4190ac4fa54aa18b1f82806ddf8, type: 3}
       propertyPath: m_Name
       value: ItemDetailed
-      objectReference: {fileID: 0}
-    - target: {fileID: 8574860873722781867, guid: 7cf8e4190ac4fa54aa18b1f82806ddf8, type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

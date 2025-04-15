@@ -12,9 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26d5e35ee82f4135a3fe15d25014cc32, type: 3}
   m_Name: soru1
   m_EditorClassIdentifier: 
-  question: sa
+  question: "Ben hep seninleyim ama sen beni ancak \u0131\u015F\u0131kla fark edersin.\r\n\xC7ok
+    \u0131\u015F\u0131kta yok olurum, hi\xE7 \u0131\u015F\u0131ks\u0131z da.\r\nNe
+    ben senden ayr\u0131l\u0131r\u0131m, ne sen benden."
   choices:
-  - "dao\u011Fru"
-  - "yanl\u0131s"
-  - "yanl\u0131s"
-  correctAnswerIndex: 0
+  - "Yans\u0131ma"
+  - "G\xF6lge"
+  - Hayal
+  correctAnswerIndex: 1

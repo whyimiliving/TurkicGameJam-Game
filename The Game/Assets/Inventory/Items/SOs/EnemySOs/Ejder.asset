@@ -15,4 +15,5 @@ MonoBehaviour:
   itemName: Ejder
   description: DD
   icon: {fileID: 5487563436616061978, guid: b06a083e5db2d6c4fa5f9a3627ed0f59, type: 3}
-  power: 120
+  power: 50
+  cardStatus: 0

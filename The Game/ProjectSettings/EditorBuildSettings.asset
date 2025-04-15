@@ -9,6 +9,15 @@ EditorBuildSettings:
     path: Assets/Scenes/SampleScene.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
   - enabled: 1
+    path: Assets/Scenes/Start Menu/StartMenuScene.unity
+    guid: 67c9af913e67d3f47a3cb696248b4035
+  - enabled: 1
+    path: Assets/Scenes/Main Flow/FirstScene.unity
+    guid: 807b837236fa1da4da59cfc11fe2b251
+  - enabled: 1
+    path: Assets/Scenes/Main Flow/SecondScene.unity
+    guid: ee8d4b33bbcd503448d30209b400910f
+  - enabled: 0
     path: Assets/MiniGames/TestScene.unity
     guid: e2ff51db728c9b442a5035c725f79e32
   - enabled: 1
@@ -18,11 +27,8 @@ EditorBuildSettings:
     path: Assets/MiniGames/Tcg/TcgScene.unity
     guid: 4bebef28c73402d4ba149af1b8dd1f28
   - enabled: 1
-    path: Assets/Scenes/Main Flow/FirstScene.unity
-    guid: 807b837236fa1da4da59cfc11fe2b251
-  - enabled: 1
-    path: Assets/Scenes/Main Flow/SecondScene.unity
-    guid: ee8d4b33bbcd503448d30209b400910f
+    path: Assets/MiniGames/Tcg/TcgScene2.unity
+    guid: 4035a9c2777739f4390532f50e3e52fd
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

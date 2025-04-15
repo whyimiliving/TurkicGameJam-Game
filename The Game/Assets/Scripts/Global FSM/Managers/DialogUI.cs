@@ -31,6 +31,8 @@ public class DialogUI : MonoBehaviour
 
     private IEnumerator TypeLine(string line)
     {
+
+        PlayerMovement.Instance.moveSpeed = 3;
         panel.SetActive(true);
         dialogText.text = "";
         IsTyping = true;
@@ -46,6 +48,8 @@ public class DialogUI : MonoBehaviour
 
     public void Hide()
     {
+     
+        PlayerMovement.Instance.moveSpeed = 3;
         panel.SetActive(false);
         dialogText.text = "";
         IsTyping = false;

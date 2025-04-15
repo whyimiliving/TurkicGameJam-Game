@@ -72,6 +72,9 @@ public class DialogUI_Dual : MonoBehaviour
 
     private IEnumerator TypeLine(TextMeshProUGUI activeField, string text, TextMeshProUGUI otherField)
     {
+        
+   
+        
         for (int i = 0; i < panel.Length; i++)
         {
             panel[i].SetActive(true);
@@ -106,6 +109,7 @@ public class DialogUI_Dual : MonoBehaviour
 
     public void Hide()
     {
+        
         speakerAText.text = "";
         speakerBText.text = "";
         for (int i = 0; i < panel.Length; i++)

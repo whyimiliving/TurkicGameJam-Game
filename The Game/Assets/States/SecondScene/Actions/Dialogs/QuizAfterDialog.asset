@@ -13,4 +13,6 @@ MonoBehaviour:
   m_Name: QuizAfterDialog
   m_EditorClassIdentifier: 
   lines:
-  - aaaa
+  - "Torun:\n\u015Eimdi ne olacak nene"
+  - "Nene:\n\u015Eimdi s\u0131ra onlarda"
+  col: BaykusCol

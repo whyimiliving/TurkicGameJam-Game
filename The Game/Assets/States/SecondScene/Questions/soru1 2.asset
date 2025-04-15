@@ -12,9 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26d5e35ee82f4135a3fe15d25014cc32, type: 3}
   m_Name: soru1 2
   m_EditorClassIdentifier: 
-  question: sadsadasdsad
+  question: "Beni g\xF6remezsin ama her \u015Feyi de\u011Fi\u015Ftiririm.\r\nNe tutabilirsin,
+    ne durdurabilirsin.\r\nGe\xE7tik\xE7e seni al\u0131r g\xF6t\xFCr\xFCr."
   choices:
-  - "dao\u011Fru"
-  - "yanl\u0131s"
-  - "yanl\u0131s"
-  correctAnswerIndex: 0
+  - "R\xFCzgar"
+  - Zaman
+  - "An\u0131"
+  correctAnswerIndex: 1
