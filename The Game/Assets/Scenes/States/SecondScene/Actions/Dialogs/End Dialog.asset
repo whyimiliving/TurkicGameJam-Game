@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a5040852b79fa14cafb578cfcfdca50, type: 3}
+  m_Name: End Dialog
+  m_EditorClassIdentifier: 
+  lines:
+  - "Deli Dumrul:\nBen sand\u0131m ki yi\u011Fitlik"
+  - "Deli Dumrul:\nbilektedir g\xFC\xE7tedir"
+  - "Deli Dumrul:\nde\u011Filmi\u015F k\xF6pr\xFCde sopa vurmak ak\xE7e almak"
+  - "Deli Dumrul:\nas\u0131l yi\u011Fitlik o imi\u015F"
+  - "Deli Dumrul:\nsevdi\u011Fine can verip can olmak"
+  col: 

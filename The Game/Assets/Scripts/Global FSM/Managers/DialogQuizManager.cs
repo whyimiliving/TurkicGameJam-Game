@@ -26,7 +26,7 @@ public class DialogQuizManager : MonoBehaviour
 
     public void StartQuiz()
     {
-        PlayerMovement.Instance.canMove = false;
+     
         DialogQuizUI.Instance.panel.SetActive(true);
         currentQuiz.Clear();
         currentIndex = 0;
@@ -68,8 +68,6 @@ public class DialogQuizManager : MonoBehaviour
 
         if (QuizPassed || QuizFailed)
         {
-            PlayerMovement.Instance.canMove = true;
-            PlayerMovement.Instance.moveSpeed = 3;
             active = true;
         }
         else

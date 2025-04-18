@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc7c9bd4fec24b698e4d1ccb3e5ec727, type: 3}
+  m_Name: Road_Dialog
+  m_EditorClassIdentifier: 
+  lines:
+  - "Dumrul da m\u0131 bilmedi cevaplar\u0131?"
+  - "Dumrul... \xF6l\xFCmle y\xFCzle\u015Fti\u011Finde konu\u015Fmak istedi."
+  - 
+  - "Can\u0131m\u0131 vermem! dedi... Ama sesi titredi."
+  - 
+  - "Korktugunu bilmeyecek kadar \xF6fkeliydi \xF6nce."
+  - 
+  - "\xD6l\xFCm sustu. Dumrulda o an ilk defa sustu."
+  - "Peki ne yapt\u0131?"
+  - "Ka\xE7mak istedi olmad\u0131.\nAnnesine ve babas\u0131na gitti can verin bana
+    dedi."
+  - 
+  - "\u0130kiside sustu. S\u0131rt\u0131n\u0131 d\xF6n\xFCp y\xFCr\xFCd\xFC."
+  - 
+  - "\u0130\u015Fte o an anlad\u0131."
+  - "Yaln\u0131zd\u0131..."
+  - "Ve o yanl\u0131zl\u0131kta... ilk kez ba\u015Fka bir ses duydu."
+  - 
+  - "\"Ben de\u011Fil... biz gerek\""
+  - '"Biz..."'
+  - "\u0130\u015Fte \u015Fimdi sen de oradas\u0131n"
+  - 
+  - "Art\u0131k dumrul ile kar\u015F\u0131la\u015Fabilirsin."
+  - 
+  - "\xC7\xFCnk\xFC art\u0131k yanl\u0131z y\xFCr\xFCm\xFCyorsun. "
+  - 
+  - "Ba\u015Fka \u015Feyler de ta\u015F\u0131yorsun i\xE7inde."
+  delayAfterLine: 1

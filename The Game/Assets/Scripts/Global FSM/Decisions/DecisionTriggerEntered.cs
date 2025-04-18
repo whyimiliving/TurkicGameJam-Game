@@ -16,6 +16,8 @@ namespace FSM.Decisions
             if (other.CompareTag(triggerTag))
             {
                 triggered = true;
+                PlayerMovement.Instance.canMove = false;
+                PlayerMovement.Instance.movement = Vector3.zero;
                 Debug.Log("✅ Trigger tetiklendi!");
 
                 Destroy(triggerObject); 

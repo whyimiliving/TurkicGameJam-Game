@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26d5e35ee82f4135a3fe15d25014cc32, type: 3}
+  m_Name: soru1 8
+  m_EditorClassIdentifier: 
+  question: "Beni isteyen yanar,\r\nBenden ka\xE7an \xFC\u015F\xFCr.\r\nHem yok ederim,\r\nHem
+    do\u011Fururum."
+  choices:
+  - "Ate\u015F"
+  - "G\xFCne\u015F"
+  - "\xD6fke"
+  correctAnswerIndex: 0

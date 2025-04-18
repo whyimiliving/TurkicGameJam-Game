@@ -24,6 +24,9 @@ EditorBuildSettings:
     path: Assets/MiniGames/Ontale/OntaleScene.unity
     guid: b1cf4f0189bfca24992ede62a753e283
   - enabled: 1
+    path: Assets/Scenes/Main Flow/End.unity
+    guid: 03728da086a52e142ab909ca715dd3f9
+  - enabled: 1
     path: Assets/MiniGames/Tcg/TcgScene.unity
     guid: 4bebef28c73402d4ba149af1b8dd1f28
   - enabled: 1

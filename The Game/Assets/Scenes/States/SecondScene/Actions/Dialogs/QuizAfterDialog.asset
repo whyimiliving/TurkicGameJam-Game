@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a5040852b79fa14cafb578cfcfdca50, type: 3}
+  m_Name: QuizAfterDialog
+  m_EditorClassIdentifier: 
+  lines:
+  - "Bayku\u015F:\nCevap Verdin.. ama sorular sende kald\u0131."
+  - "Bayku\u015F:\n\u015Eimdi Art\u0131k G\xF6rebilirsin."
+  - "Nine:\nSorular cevaptan \xF6nce gelir evlat.\n"
+  - "Nine:\nBaz\u0131 sorular\u0131n cevab\u0131 yoktur.\n"
+  - "Nine:\nAma onu yan\u0131nda ta\u015F\u0131may\u0131 \xF6\u011Frenirsin.\n"
+  - 'Torun:
+
+    Bilgelik ve Zeka..'
+  - "Torun:\nBu kartlar cevap m\u0131? Yoksa daha fazla soru mu?"
+  - "Nine:\nZeka sorar... Bilgelik cevaps\u0131zla ya\u015Famay\u0131 bilir.\n"
+  - "Nine:\nArt\u0131k ikiside sende.\n"
+  col: BaykusCol

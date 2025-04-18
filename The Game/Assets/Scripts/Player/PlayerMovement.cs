@@ -9,7 +9,7 @@ public class PlayerMovement : SortingOrderByY
 
     [SerializeField] private AudioClip walkSound;
 
-    private Vector2 movement;
+    public Vector2 movement;
     private Vector2 lastDirection = Vector2.down;
     
     public bool canMove = true;

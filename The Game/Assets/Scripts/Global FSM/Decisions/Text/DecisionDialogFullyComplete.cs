@@ -12,6 +12,7 @@ namespace FSM.Decisions
                 Input.GetKeyDown(KeyCode.Space))
             {
                 DialogUI.Instance.Hide();
+                PlayerMovement.Instance.canMove = true;
                 return true;
               
             }

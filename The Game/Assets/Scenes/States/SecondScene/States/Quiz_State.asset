@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4084b2ee83b7d9544b91c9e70d54c4ad, type: 3}
+  m_Name: Quiz_State
+  m_EditorClassIdentifier: 
+  ID: Quiz_State
+  actions:
+  - {fileID: 11400000, guid: 55e36b06fe5f2c44ba621bca59ece9d1, type: 2}
+  transitions:
+  - decision: {fileID: 11400000, guid: 5b9abc0bf94e356469ccbe83d25f15b6, type: 2}
+    targetState: Fail_State
+    requiredResult: 1
+  - decision: {fileID: 11400000, guid: 3b2d626cd4a6d714ba13e0f5d175fd7f, type: 2}
+    targetState: Passed_State
+    requiredResult: 1
