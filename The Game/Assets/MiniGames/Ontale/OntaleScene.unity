@@ -1591,7 +1591,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentHp: 0
-  maxHp: 20
+  maxHp: 10
   hpText: {fileID: 2120829287}
   hpImg: {fileID: 924358137}
 --- !u!1 &1092481922

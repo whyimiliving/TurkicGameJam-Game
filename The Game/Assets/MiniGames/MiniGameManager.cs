@@ -127,6 +127,11 @@ public class MiniGameManager : MonoBehaviour
         }
     }
 
+    public void GiveItemsOnline(string gameName)
+    {
+        StartCoroutine(GiveItems(gameName));
+    }
+
     IEnumerator GiveItems(string gameName)
     {
         backpackEvents.transform.parent.GetComponent<Animator>().SetTrigger("GetItem");

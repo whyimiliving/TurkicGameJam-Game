@@ -9,7 +9,7 @@ namespace FSM.Decisions
         
         public override bool Decide(FSMContext context)
         {
-            MiniGameManager._miniGameManager.CheckForItems(gameNamee);
+            MiniGameManager._miniGameManager.GiveItemsOnline(gameNamee);
             return true;
         }
     }
