@@ -119,22 +119,29 @@ public class MiniGameManager : MonoBehaviour
     {
         if (isGood)
         {
-            CheckForItems(GameNames.OntaleScene);
+            StartCoroutine(GiveItems(gameName));
         }
         else
         {
             StartCoroutine(RestartScene(gameName));
-            return;
         }
+    }
 
+    IEnumerator GiveItems(string gameName)
+    {
+        backpackEvents.transform.parent.GetComponent<Animator>().SetTrigger("GetItem");
+        CheckForItems(GameNames.OntaleScene);
+        yield return new WaitForSeconds(4);
         SceneManager.UnloadSceneAsync(gameName);
+
         isIngame = false;
         RenderGameobjects();
+        yield return null;
     }
 
     IEnumerator RestartScene(string gameName)
     {
-        backpackEvents.SetActive(true);
+        backpackEvents.SetActive(true); // TODO: aç salla yerine anim koy
         backpackEvents.GetComponent<BackpackEvents>().TriggerShake();
         InventoryManager._inventoryManager.RemoveLestValueable();
         yield return new WaitForSeconds(4);
