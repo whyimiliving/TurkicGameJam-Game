@@ -3040,6 +3040,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Inventory
       objectReference: {fileID: 0}
+    - target: {fileID: 8270312585959028220, guid: acb3789dd03477f46b3bcc9d06d5e881, type: 3}
+      propertyPath: Cards.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8270312585959028220, guid: acb3789dd03477f46b3bcc9d06d5e881, type: 3}
+      propertyPath: Cards.Array.data[0].amount
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4783,9 +4791,17 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 975837536}
     - target: {fileID: 8560768459536366004, guid: 93201cf6a92a86c47b6b1b5648d93790, type: 3}
+      propertyPath: gameCards.Array.data[0].myItems.Array.data[0].itemSo
+      value: 
+      objectReference: {fileID: 11400000, guid: bd21965dbb4c93d4fad9ccf8d0e1fe22, type: 2}
+    - target: {fileID: 8560768459536366004, guid: 93201cf6a92a86c47b6b1b5648d93790, type: 3}
       propertyPath: gameCards.Array.data[0].myItems.Array.data[1].amount
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8560768459536366004, guid: 93201cf6a92a86c47b6b1b5648d93790, type: 3}
+      propertyPath: gameCards.Array.data[0].myItems.Array.data[1].itemSo
+      value: 
+      objectReference: {fileID: 11400000, guid: 1bccdcdd99fa2304ea376acfb60ebd5d, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

@@ -5813,7 +5813,7 @@ PrefabInstance:
       objectReference: {fileID: 133279420}
     - target: {fileID: 8560768459536366004, guid: 93201cf6a92a86c47b6b1b5648d93790, type: 3}
       propertyPath: gameCards.Array.size
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 8560768459536366004, guid: 93201cf6a92a86c47b6b1b5648d93790, type: 3}
       propertyPath: onlyInMainGame.Array.size
@@ -5829,7 +5829,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8560768459536366004, guid: 93201cf6a92a86c47b6b1b5648d93790, type: 3}
       propertyPath: gameCards.Array.data[2].Name
-      value: OwlScane
+      value: Owl
       objectReference: {fileID: 0}
     - target: {fileID: 8560768459536366004, guid: 93201cf6a92a86c47b6b1b5648d93790, type: 3}
       propertyPath: 'onlyInMainGame.Array.data[0]'
@@ -5861,7 +5861,7 @@ PrefabInstance:
       objectReference: {fileID: 667935210}
     - target: {fileID: 8560768459536366004, guid: 93201cf6a92a86c47b6b1b5648d93790, type: 3}
       propertyPath: gameCards.Array.data[0].myItems.Array.size
-      value: 5
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 8560768459536366004, guid: 93201cf6a92a86c47b6b1b5648d93790, type: 3}
       propertyPath: gameCards.Array.data[1].myItems.Array.size
@@ -5869,7 +5869,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8560768459536366004, guid: 93201cf6a92a86c47b6b1b5648d93790, type: 3}
       propertyPath: gameCards.Array.data[2].myItems.Array.size
-      value: 5
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8560768459536366004, guid: 93201cf6a92a86c47b6b1b5648d93790, type: 3}
       propertyPath: gameCards.Array.data[0].myItems.Array.data[0].amount
@@ -5881,12 +5881,12 @@ PrefabInstance:
       objectReference: {fileID: 11400000, guid: 582270c69c685004991c35cdaf60c2d9, type: 2}
     - target: {fileID: 8560768459536366004, guid: 93201cf6a92a86c47b6b1b5648d93790, type: 3}
       propertyPath: gameCards.Array.data[0].myItems.Array.data[1].amount
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8560768459536366004, guid: 93201cf6a92a86c47b6b1b5648d93790, type: 3}
       propertyPath: gameCards.Array.data[0].myItems.Array.data[1].itemSo
       value: 
-      objectReference: {fileID: 11400000, guid: 712fb3c131a3eb047a1272fa08ed9f23, type: 2}
+      objectReference: {fileID: 11400000, guid: f5b30608a405ea34ab6351a62875c399, type: 2}
     - target: {fileID: 8560768459536366004, guid: 93201cf6a92a86c47b6b1b5648d93790, type: 3}
       propertyPath: gameCards.Array.data[0].myItems.Array.data[2].amount
       value: 1
@@ -5894,15 +5894,15 @@ PrefabInstance:
     - target: {fileID: 8560768459536366004, guid: 93201cf6a92a86c47b6b1b5648d93790, type: 3}
       propertyPath: gameCards.Array.data[0].myItems.Array.data[2].itemSo
       value: 
-      objectReference: {fileID: 11400000, guid: f5b30608a405ea34ab6351a62875c399, type: 2}
+      objectReference: {fileID: 11400000, guid: 152d46e4061597241a74bf34dd6cccdc, type: 2}
     - target: {fileID: 8560768459536366004, guid: 93201cf6a92a86c47b6b1b5648d93790, type: 3}
       propertyPath: gameCards.Array.data[0].myItems.Array.data[3].amount
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8560768459536366004, guid: 93201cf6a92a86c47b6b1b5648d93790, type: 3}
       propertyPath: gameCards.Array.data[0].myItems.Array.data[3].itemSo
       value: 
-      objectReference: {fileID: 11400000, guid: 1bccdcdd99fa2304ea376acfb60ebd5d, type: 2}
+      objectReference: {fileID: 11400000, guid: 152d46e4061597241a74bf34dd6cccdc, type: 2}
     - target: {fileID: 8560768459536366004, guid: 93201cf6a92a86c47b6b1b5648d93790, type: 3}
       propertyPath: gameCards.Array.data[0].myItems.Array.data[4].amount
       value: 1
@@ -5953,23 +5953,23 @@ PrefabInstance:
       objectReference: {fileID: 11400000, guid: 8e33f3a93779f3746a08fe9c33d8e455, type: 2}
     - target: {fileID: 8560768459536366004, guid: 93201cf6a92a86c47b6b1b5648d93790, type: 3}
       propertyPath: gameCards.Array.data[2].myItems.Array.data[0].amount
-      value: 4
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8560768459536366004, guid: 93201cf6a92a86c47b6b1b5648d93790, type: 3}
       propertyPath: gameCards.Array.data[2].myItems.Array.data[0].itemSo
       value: 
-      objectReference: {fileID: 11400000, guid: 092b598ce9d3720448522f0236ad44a6, type: 2}
+      objectReference: {fileID: 11400000, guid: 712fb3c131a3eb047a1272fa08ed9f23, type: 2}
     - target: {fileID: 8560768459536366004, guid: 93201cf6a92a86c47b6b1b5648d93790, type: 3}
       propertyPath: gameCards.Array.data[2].myItems.Array.data[1].amount
-      value: 10
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8560768459536366004, guid: 93201cf6a92a86c47b6b1b5648d93790, type: 3}
       propertyPath: gameCards.Array.data[2].myItems.Array.data[1].itemSo
       value: 
-      objectReference: {fileID: 11400000, guid: c2cafcb0ed0403a4682f30f15e171bcb, type: 2}
+      objectReference: {fileID: 11400000, guid: fd0251ea750150443bd3a5c5b9079d3a, type: 2}
     - target: {fileID: 8560768459536366004, guid: 93201cf6a92a86c47b6b1b5648d93790, type: 3}
       propertyPath: gameCards.Array.data[2].myItems.Array.data[2].amount
-      value: 4
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8560768459536366004, guid: 93201cf6a92a86c47b6b1b5648d93790, type: 3}
       propertyPath: gameCards.Array.data[2].myItems.Array.data[2].itemSo
@@ -5977,7 +5977,7 @@ PrefabInstance:
       objectReference: {fileID: 11400000, guid: fd0251ea750150443bd3a5c5b9079d3a, type: 2}
     - target: {fileID: 8560768459536366004, guid: 93201cf6a92a86c47b6b1b5648d93790, type: 3}
       propertyPath: gameCards.Array.data[2].myItems.Array.data[3].amount
-      value: 4
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8560768459536366004, guid: 93201cf6a92a86c47b6b1b5648d93790, type: 3}
       propertyPath: gameCards.Array.data[2].myItems.Array.data[3].itemSo
@@ -5985,7 +5985,7 @@ PrefabInstance:
       objectReference: {fileID: 11400000, guid: b4249169b162b0a469ecf136ee7d451e, type: 2}
     - target: {fileID: 8560768459536366004, guid: 93201cf6a92a86c47b6b1b5648d93790, type: 3}
       propertyPath: gameCards.Array.data[2].myItems.Array.data[4].amount
-      value: 5
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8560768459536366004, guid: 93201cf6a92a86c47b6b1b5648d93790, type: 3}
       propertyPath: gameCards.Array.data[2].myItems.Array.data[4].itemSo
