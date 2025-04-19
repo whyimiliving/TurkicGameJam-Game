@@ -41,7 +41,7 @@ public class SnakeMain : MonoBehaviour, IAnimStarter
         if (snakeHp.currentHp <= 1)
         {
             StartCoroutine(ShowTextOneByOne(strings[0]));
-            yield return new WaitForSeconds(7);
+            yield return new WaitForSeconds(5);
             MiniGameManager._miniGameManager.CloseMinigame(GameNames.OntaleScene, true);
         }
         else
